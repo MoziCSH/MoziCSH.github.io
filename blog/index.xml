@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Bear Cub</title>
-    <link>https://example.com/</link>
-    <description>Recent content in Home on Bear Cub</description>
+    <title>Blog on Bear Cub</title>
+    <link>https://example.com/blog/</link>
+    <description>Recent content in Blog on Bear Cub</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>John Doe (CC BY 4.0)</copyright>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://example.com/blog/markdown-syntax/</link>
