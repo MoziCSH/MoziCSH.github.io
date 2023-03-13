@@ -1,32 +1,86 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Vno Hugo</title>
-    <link>https://vno-hugo.netlify.app/</link>
-    <description>Recent content in Home on Vno Hugo</description>
+    <title>Paper</title>
+    <link>https://hugo-paper.vercel.app/</link>
+    <description>Recent content on Paper</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 19 Jul 2021 07:28:27 +0800</lastBuildDate><atom:link href="https://vno-hugo.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>Copyright © 2008–2019, Steve Francia and the lee.so; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://hugo-paper.vercel.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Hello World Vno</title>
-      <link>https://vno-hugo.netlify.app/2021/07/hello-world-vno/</link>
-      <pubDate>Mon, 19 Jul 2021 07:28:27 +0800</pubDate>
+      <title></title>
+      <link>https://hugo-paper.vercel.app/archives/</link>
+      <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vno-hugo.netlify.app/2021/07/hello-world-vno/</guid>
-      <description>What&amp;rsquo;s this Vno Hugo is a theme for Hugo. It is a port of onevcat&amp;rsquo;s Vno Jekyll, which is originally developed from Dale Anthony&amp;rsquo;s Uno.
-Usage Inside the folder of your Hugo site run:
-$ git submodule add https://github.com/xslingcn/vno-hugo.git themes/vno-hugo Copy everything in the exampleSite folder to the root of your hugo site, then run hugo serve. Your site with Vno Hugo enabled should be accessible in http://localhost:1313/.
-For more information about Hugo, please visit Hugo&amp;rsquo;s site.</description>
+      <guid>https://hugo-paper.vercel.app/archives/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Sample Post</title>
-      <link>https://vno-hugo.netlify.app/2021/07/sample-post/</link>
-      <pubDate>Mon, 19 Jul 2021 07:28:17 +0800</pubDate>
+      <title>Markdown Syntax Guide</title>
+      <link>https://hugo-paper.vercel.app/post/markdown-syntax/</link>
+      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://vno-hugo.netlify.app/2021/07/sample-post/</guid>
-      <description>You’ll find this post in your posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run hugo serve, which launches a web server and auto-regenerates your site when a file is updated.
-To add new posts, simply run:
-$ hugo new posts/my-sample-post.md And you shall see the my-sample-post.md file in posts directory, just edit the front matter and content as you like.</description>
+      <guid>https://hugo-paper.vercel.app/post/markdown-syntax/</guid>
+      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Rich Content</title>
+      <link>https://hugo-paper.vercel.app/post/rich-content/</link>
+      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/rich-content/</guid>
+      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugos-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;
+&lt;h2 id=&#34;heading&#34;&gt;&lt;/h2&gt;</description>
+    </item>
+    
+    <item>
+      <title>Placeholder Text</title>
+      <link>https://hugo-paper.vercel.app/post/placeholder-text/</link>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/placeholder-text/</guid>
+      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Math Typesetting</title>
+      <link>https://hugo-paper.vercel.app/post/math-typesetting/</link>
+      <pubDate>Fri, 08 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/math-typesetting/</guid>
+      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Emoji Support</title>
+      <link>https://hugo-paper.vercel.app/post/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/post/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://hugo-paper.vercel.app/about/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+https://github.com/yuin/goldmark https://github.</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://hugo-paper.vercel.app/contact/</link>
+      <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://hugo-paper.vercel.app/contact/</guid>
+      <description> github.com/nanxiaobei lee.so </description>
     </item>
     
   </channel>
