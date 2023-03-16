@@ -22,108 +22,97 @@
         <guid>/p/markdown-syntax-guide/</guid>
         <description>&lt;img src="/post/markdown/beginnerStart.png" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;h1 id=&#34;markdown-syntax-guide&#34;&gt;Markdown Syntax Guide&lt;/h1&gt;
 &lt;h2 id=&#34;heading-level&#34;&gt;Heading Level&lt;/h2&gt;
-&lt;p&gt;📖 Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The heading level can be set from 1 to 6 and its font size is from large to small.&lt;/p&gt;
-&lt;p&gt;Use the &amp;lsquo;#&amp;rsquo; symbol followed by a space at the beginning of a line to define a heading, with more symbols indicating smaller levels.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;# Heading level 1
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gh&#34;&gt;&lt;/span&gt;...
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;###### Heading level 6	
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;/p&gt;
-&lt;h3 id=&#34;this-is-level-3&#34;&gt;This is level 3&lt;/h3&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The heading level can be set from 1 to 6 and its font size is from large to small.&lt;/li&gt;
+&lt;li&gt;Use the &amp;lsquo;#&amp;rsquo; symbol followed by a space at the beginning of a line to define a heading, with more symbols indicating smaller levels.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;##### This is level 5  
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;gu&#34;&gt;###### this is level 6
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;/p&gt;
+&lt;h5 id=&#34;this-is-level-5&#34;&gt;This is level 5&lt;/h5&gt;
 &lt;h6 id=&#34;this-is-level-6&#34;&gt;this is level 6&lt;/h6&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;line-break&#34;&gt;Line Break&lt;/h2&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Add two or more spaces followed by an Enter to create a new line.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Add two or more spaces followed by an Enter to create a new line.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This is the first line.  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;And this is the second line.	
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 This is the first line.&lt;br&gt;
 And this is the second line.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h2&gt;
 &lt;h3 id=&#34;1-text-bold&#34;&gt;1. Text Bold&lt;/h3&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Add two asterisks or underscores at the beginning and end of a word or statement.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Add two asterisks or underscores at the beginning and end of a word or statement.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;I just love &lt;span class=&#34;gs&#34;&gt;**bold text**&lt;/span&gt;.  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;I just love &lt;span class=&#34;gs&#34;&gt;__bold text__&lt;/span&gt;.	
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 I just love &lt;strong&gt;bold text&lt;/strong&gt;.&lt;br&gt;
 I just love &lt;strong&gt;bold text&lt;/strong&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;2-text-italic&#34;&gt;2. Text Italic&lt;/h3&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Add one asterisk or underscore at the beginning and end of a word or statement.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Add one asterisk or underscore at the beginning and end of a word or statement.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Italicized text is the &lt;span class=&#34;ge&#34;&gt;*cat&amp;#39;s meow*&lt;/span&gt;.  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Italicized text is the &lt;span class=&#34;ge&#34;&gt;_cat&amp;#39;s meow_&lt;/span&gt;.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 Italicized text is the &lt;em&gt;cat&amp;rsquo;s meow&lt;/em&gt;.&lt;br&gt;
 Italicized text is the &lt;em&gt;cat&amp;rsquo;s meow&lt;/em&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;3-text-blod-and-italic&#34;&gt;3. Text Blod and Italic&lt;/h3&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Add three asterisks or underscores at the beginning and end of a word or statement.&lt;/p&gt;
-&lt;p&gt;Either combine two asterisks with one underscores or two underscores with one asterisk.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add three asterisks or underscores at the beginning and end of a word or statement.&lt;/li&gt;
+&lt;li&gt;Either combine two asterisks with one underscores or two underscores with one asterisk.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This text is &lt;span class=&#34;ge&#34;&gt;**&lt;/span&gt;*really important***.  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This text is &lt;span class=&#34;gs&#34;&gt;___really important___&lt;/span&gt;.  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This text is &lt;span class=&#34;gs&#34;&gt;**_really important_**&lt;/span&gt;.  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This text is &lt;span class=&#34;ge&#34;&gt;__&lt;/span&gt;*really important*__.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.&lt;br&gt;
 This text is &lt;em&gt;&lt;strong&gt;really important&lt;/strong&gt;&lt;/em&gt;.&lt;br&gt;
 This text is &lt;strong&gt;&lt;em&gt;really important&lt;/em&gt;&lt;/strong&gt;.&lt;br&gt;
 This text is &lt;strong&gt;&lt;em&gt;really important&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;text-color&#34;&gt;Text Color&lt;/h2&gt;
-&lt;p&gt;📖Description&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Use the HTML grammer to set font colors.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Use the HTML grammer to set font colors.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;Red&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test1&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;color&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;#0000FF&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test2&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;background:red&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;Test3&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;font&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 &lt;font color=Red&gt;Test1&lt;/font&gt;&lt;br&gt;
 &lt;font color=#0000FF&gt;Test2&lt;/font&gt;&lt;br&gt;
 &lt;font style=background:red&gt;Test3&lt;/font&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;text-strikethrough&#34;&gt;Text Strikethrough&lt;/h2&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Add two tilde symbols at the beginning and end of the word or statement.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Add two tilde symbols at the beginning and end of the word or statement.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;~~The world is flat.~~  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;We now know that the world is round.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 &lt;del&gt;The world is flat.&lt;/del&gt;&lt;br&gt;
 We now know that the world is round.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h2&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Add a &amp;lsquo;&amp;gt;&amp;rsquo; (greater than) symbol in front of a statement.&lt;/p&gt;
-&lt;p&gt;For multiple paragraphs. Add a &amp;gt; on the blank lines between the paragraphs.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add a &amp;lsquo;&amp;gt;&amp;rsquo; (greater than) symbol in front of a statement.&lt;/li&gt;
+&lt;li&gt;For multiple paragraphs. Add a &amp;gt; on the blank lines between the paragraphs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&#34;ge&#34;&gt;Dorothy followed her through many of the beautiful rooms in her castle.
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;ge&#34;&gt;&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;&lt;/span&gt;&lt;span class=&#34;ge&#34;&gt;&amp;gt; The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Dorothy followed her through many of the beautiful rooms in her castle.&lt;/p&gt;
 &lt;p&gt;The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.&lt;/p&gt;
@@ -131,19 +120,19 @@ We now know that the world is round.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
 &lt;h3 id=&#34;1-ordered-lists&#34;&gt;1. Ordered Lists&lt;/h3&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Add line items with numbers followed by periods.&lt;/p&gt;
-&lt;p&gt;The numbers don&amp;rsquo;t have to be in numerical order, but the list should start with the number one.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add line items with numbers followed by periods.&lt;/li&gt;
+&lt;li&gt;The numbers don&amp;rsquo;t have to be in numerical order, but the list should start with the number one.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; First item
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;2.&lt;/span&gt; Second item
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;3.&lt;/span&gt; Third item
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; Indented item
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; Indented item
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;4.&lt;/span&gt; Fourth item
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;First item&lt;/li&gt;
 &lt;li&gt;Second item&lt;/li&gt;
@@ -156,15 +145,13 @@ We now know that the world is round.&lt;/p&gt;
 &lt;li&gt;Fourth item&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;2-unordered-lists&#34;&gt;2. Unordered Lists&lt;/h3&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Add dashes (-), asterisks (*), or plus (+) in front of line items.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Add dashes (-), asterisks (*), or plus (+) in front of line items.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;*&lt;/span&gt; First item
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;*&lt;/span&gt; 1968\. A great year!
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;*&lt;/span&gt; Third item
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;First item&lt;/li&gt;
 &lt;li&gt;1968. A great year!&lt;/li&gt;
@@ -172,70 +159,58 @@ We now know that the world is round.&lt;/p&gt;
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;horizontal-line&#34;&gt;Horizontal Line&lt;/h2&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Add three dashes (-), asterisks (*), or underscores (_) on a line by themselves.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Add three dashes (-), asterisks (*), or underscores (_) on a line by themselves.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;***  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;---  
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;___
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;hr&gt;
 &lt;hr&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;h3 id=&#34;1-with-title&#34;&gt;1. With Title&lt;/h3&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Enclose the content of title in quotation marks after the URL.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Enclose the content of title in quotation marks after the URL.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;My favorite search engine is [&lt;span class=&#34;nt&#34;&gt;Duck Duck Go&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;https://duckduckgo.com &amp;#34;The best search engine for privacy&amp;#34;&lt;/span&gt;).
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 My favorite search engine is &lt;a class=&#34;link&#34; href=&#34;https://duckduckgo.com&#34;  title=&#34;The best search engine for privacy&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Duck Duck Go&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;2-literal-url-and-email&#34;&gt;2. Literal URL and Email&lt;/h3&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Enclose the content in angle brackets.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Enclose the content in angle brackets.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;https:&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;//&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;www&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;markdownguide&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;org&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;fake&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;@&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;example&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;na&#34;&gt;com&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;https://www.markdownguide.org&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://www.markdownguide.org&lt;/a&gt;&lt;br&gt;
 &lt;a class=&#34;link&#34; href=&#34;mailto:fake@example.com&#34; &gt;fake@example.com&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;3-internal-section&#34;&gt;3. Internal Section&lt;/h3&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Enclose the heading Id in the parentheses.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Enclose the heading Id in the parentheses.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;click this [&lt;span class=&#34;nt&#34;&gt;jump to the With Tile&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;#1-with-title&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 click this &lt;a class=&#34;link&#34; href=&#34;#1-with-title&#34; &gt;jump to the With Tile&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;4-disable-auto-url-linking&#34;&gt;4. Disable Auto URL Linking&lt;/h3&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Denoting the URL as code with backticks.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Denoting the URL as code with backticks.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;sb&#34;&gt;`http://www.example.com`&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 &lt;code&gt;http://www.example.com&lt;/code&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Enclose the path of the image in brackets, and then add the link in parentheses.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Enclose the path of the image in brackets, and then add the link in parentheses.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;destImg&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;./assets/images/tux.jpg &amp;#34;beautiful&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 &lt;img src=&#34;/assets/images/tux.jpg&#34;
 	
 	
@@ -248,37 +223,35 @@ click this &lt;a class=&#34;link&#34; href=&#34;#1-with-title&#34; &gt;jump to t
 &gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;escaping-characters&#34;&gt;Escaping Characters&lt;/h2&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Add a backslash (\) in front of the character.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;\* Without the backslash, this would be a bullet in an unordered list.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 * Without the backslash, this would be a bullet in an unordered list.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;embeded-html-tags&#34;&gt;Embeded HTML Tags&lt;/h2&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Place the tags in the text of your Markdown-formatted file.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;br&gt;
+     Place the tags in the text of your Markdown-formatted file.&lt;/p&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This &lt;span class=&#34;gs&#34;&gt;**word**&lt;/span&gt; is bold. This &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;em&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;word&lt;span class=&#34;p&#34;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;em&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt; is italic.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;br&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;br&gt;
 This &lt;strong&gt;word&lt;/strong&gt; is bold. This &lt;em&gt;word&lt;/em&gt; is italic.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Use three or more hyphens (&amp;mdash;) to create each column&amp;rsquo;s header, and use pipes (|) to separate each column.&lt;/p&gt;
-&lt;p&gt;Align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use three or more hyphens (&amp;mdash;) to create each column&amp;rsquo;s header, and use pipes (|) to separate each column.&lt;/li&gt;
+&lt;li&gt;Align text in the columns to the left, right, or center by adding a colon (:) to the left, right, or on both side of the hyphens within the header row.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Syntax      | Description | Test Text     |
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| :---        |    :----:   |          ---: |
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Header      | Title       | Here&amp;#39;s this   |
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;| Paragraph   | Text        | And more      |
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -302,12 +275,12 @@ This &lt;strong&gt;word&lt;/strong&gt; is bold. This &lt;em&gt;word&lt;/em&gt; i
 &lt;/table&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;fenced-code-blocks&#34;&gt;Fenced Code Blocks&lt;/h2&gt;
-&lt;p&gt;📖Definition&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Use three backticks (```) or three tildes (~~~) on the lines before and after the code block.&lt;/p&gt;
-&lt;p&gt;Specify a language next to the backticks before the fenced code block to highlight codes.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;✍ Write a Sample&lt;/p&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use three backticks (```) or three tildes (~~~) on the lines before and after the code block.&lt;/li&gt;
+&lt;li&gt;pecify a language next to the backticks before the fenced code block to highlight codes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;```json
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;{
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;firstName&amp;#34;: &amp;#34;John&amp;#34;,
@@ -315,13 +288,30 @@ This &lt;strong&gt;word&lt;/strong&gt; is bold. This &lt;em&gt;word&lt;/em&gt; i
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &amp;#34;age&amp;#34;: 25
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;```
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;💻Preview&lt;/p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-json&#34; data-lang=&#34;json&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;firstName&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;John&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;lastName&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;s2&#34;&gt;&amp;#34;Smith&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  &lt;span class=&#34;nt&#34;&gt;&amp;#34;age&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;25&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id=&#34;task-lists&#34;&gt;Task Lists&lt;/h2&gt;
+&lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add dashes (-) and brackets with a space (&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; ) in front of task list items.&lt;/li&gt;
+&lt;li&gt;To select a checkbox, add an x in between the brackets (&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; ).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;✏️&lt;strong&gt;Write a Sample&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-markdown&#34; data-lang=&#34;markdown&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [x]&lt;/span&gt; Write the press release
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Update the website
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;- [ ]&lt;/span&gt; Contact the media
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;🌟&lt;strong&gt;Preview Effect&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Write the press release&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Update the website&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; Contact the media&lt;/li&gt;
+&lt;/ul&gt;
+</description>
         </item>
         <item>
         <title>Search</title>
