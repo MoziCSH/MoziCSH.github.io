@@ -12,8 +12,7 @@
         <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
         
         <guid>/p/markdown-syntax-guide/</guid>
-        <description>&lt;img src="/post/markdown/beginnerStart.png" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;h1 id=&#34;markdown-syntax-guide&#34;&gt;Markdown Syntax Guide&lt;/h1&gt;
-&lt;h2 id=&#34;heading-level&#34;&gt;Heading Level&lt;/h2&gt;
+        <description>&lt;img src="/post/markdown/beginnerStart.png" alt="Featured image of post Markdown Syntax Guide" /&gt;&lt;h2 id=&#34;heading-level&#34;&gt;Heading Level&lt;/h2&gt;
 &lt;p&gt;🏷️&lt;strong&gt;Definition&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The heading level can be set from 1 to 6 and its font size is from large to small.&lt;/li&gt;
