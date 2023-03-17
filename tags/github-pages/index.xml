@@ -230,11 +230,11 @@ Take &lt;code&gt;iTheme&lt;/code&gt; as an example:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/xxx/&amp;lt;RepoName&amp;gt;.git public
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;The files in &lt;code&gt;public&lt;/code&gt; folder will be used to commit to the GitHub server.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Prefer to select another directory to clone. Copies all files in &lt;code&gt;public&lt;/code&gt; folder to the specify folder.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Prefer to select another directory to clone. Copies all files in &lt;code&gt;public&lt;/code&gt; folder to the specified folder.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;Copy all files in the &lt;code&gt;public&lt;/code&gt; folder to the specify folder created above.&lt;/p&gt;
+&lt;p&gt;Copy all files in the &lt;code&gt;public&lt;/code&gt; folder to the specified folder created above.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Run the following commands one by one to push the site contents to GitHub server.&lt;/p&gt;

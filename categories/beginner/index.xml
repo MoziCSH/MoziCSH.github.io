@@ -6,7 +6,103 @@
         <description>Recent content in Beginner on Mozi CSH</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 16 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/beginner/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 17 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/beginner/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Clash for Windows</title>
+        <link>/p/clash-for-windows/</link>
+        <pubDate>Fri, 17 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>/p/clash-for-windows/</guid>
+        <description>&lt;img src="/post/Clash4Windows/beginnerStart.png" alt="Featured image of post Clash for Windows" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;A rules-based, cross-platform proxy application core program written in Go.&lt;/li&gt;
+&lt;li&gt;Clash for Windows is a graphical Clash branch available on Windows.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;download-package&#34;&gt;Download Package&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Download the latest release version from &lt;a class=&#34;link&#34; href=&#34;https://github.com/Fndroid/clash_for_windows_pkg/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://github.com/Fndroid/clash_for_windows_pkg/releases&lt;/a&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Recommend the portable package, like: &lt;em&gt;&lt;code&gt;Clash.for.Windows-0.20.18-win.7z&lt;/code&gt;&lt;/em&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install or extract the package and it can be launched directly.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;If the installer is downloaded, then double-click it and finish the installation with the default settings.&lt;/li&gt;
+&lt;li&gt;If the portable compress package is downloaded, just needs to extract it to the specified path.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Due to the &lt;code&gt;Clash for Windows&lt;/code&gt; does not have any valid digital signatures, the &lt;code&gt;SmartScreen&lt;/code&gt; of the Windows may pop up a prompt, just needs to click on &lt;code&gt;More Info&lt;/code&gt; and then select &lt;code&gt;Still Want to Run&lt;/code&gt; to run.&lt;/li&gt;
+&lt;li&gt;It is an open-source application, typically it is safe to run on the system.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;download-the-subscription-and-import&#34;&gt;Download the Subscription and Import&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For the stable proxy, a paid subscription is an appropriate choice.&lt;br&gt;
+However, a beginner&amp;rsquo;s guide can use the free nodes to explain the basic usage.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Go to a site that provides daily free nodes, for example: &lt;a class=&#34;link&#34; href=&#34;https://freenode.me/f/freenode&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://freenode.me/f/freenode&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the latest post and find the subscription for the &lt;code&gt;Clash&lt;/code&gt; only, like:&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;l&#34;&gt;https://freenode.me/wp-content/uploads/2023/03/168.yaml&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/blockquote&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;
+&lt;p&gt;Copy the file link of the &lt;code&gt;xxx.yaml&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open the &lt;code&gt;Clash for Windows&lt;/code&gt; client and select the &lt;code&gt;Profiles&lt;/code&gt; option on the left sidebar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Paste the copied link above to the top textbox.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the &lt;code&gt;Download&lt;/code&gt; button and wait for it to turn green with &lt;code&gt;Success!&lt;/code&gt;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;A new &lt;code&gt;xxx.yaml&lt;/code&gt; file will appear in the panel below.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the newly added &lt;code&gt;xxx.yaml&lt;/code&gt; file.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;enable-proxy&#34;&gt;Enable Proxy&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Select the &lt;code&gt;Proxies&lt;/code&gt; option on the left siderbar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the &lt;code&gt;Rule&lt;/code&gt; button on the top.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Select the &lt;code&gt;General&lt;/code&gt; option on the left siderbar.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Trun on the &lt;code&gt;System Proxy&lt;/code&gt; switch.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Try to use 🤩 &lt;a class=&#34;link&#34; href=&#34;https://www.google.com/&#34;  title=&#34;Google Search&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Google&lt;/a&gt; 🤩.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        </item>
+        <item>
         <title>Hugo Blog and Host it with Github Pages</title>
         <link>/p/hugo-blog-and-host-it-with-github-pages/</link>
         <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
@@ -230,11 +326,11 @@ Take &lt;code&gt;iTheme&lt;/code&gt; as an example:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git clone https://github.com/xxx/&amp;lt;RepoName&amp;gt;.git public
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;The files in &lt;code&gt;public&lt;/code&gt; folder will be used to commit to the GitHub server.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Prefer to select another directory to clone. Copies all files in &lt;code&gt;public&lt;/code&gt; folder to the specify folder.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Prefer to select another directory to clone. Copies all files in &lt;code&gt;public&lt;/code&gt; folder to the specified folder.&lt;/em&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ol start=&#34;5&#34;&gt;
 &lt;li&gt;
-&lt;p&gt;Copy all files in the &lt;code&gt;public&lt;/code&gt; folder to the specify folder created above.&lt;/p&gt;
+&lt;p&gt;Copy all files in the &lt;code&gt;public&lt;/code&gt; folder to the specified folder created above.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;Run the following commands one by one to push the site contents to GitHub server.&lt;/p&gt;
