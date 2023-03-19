@@ -35,13 +35,22 @@
     <loc>/archives/</loc>
     <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/categories/favorites/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/markdown/</loc>
     <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/p/markdown-syntax-guide/</loc>
     <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/p/page-favories/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/page/</loc>
+    <lastmod>2023-03-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/site/</loc>
     <lastmod>2023-03-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/search/</loc>

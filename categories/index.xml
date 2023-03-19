@@ -14,6 +14,14 @@
         <guid>/categories/beginner/</guid>
         <description>&lt;img src="/categories/beginner/beginnerCategory.png" alt="Featured image of post Beginner" /&gt;</description>
         </item>
+        <item>
+        <title>Favorites</title>
+        <link>/categories/favorites/</link>
+        <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>/categories/favorites/</guid>
+        <description>&lt;img src="/categories/favorites/favoritesCategory.png" alt="Featured image of post Favorites" /&gt;</description>
+        </item>
         
     </channel>
 </rss>
