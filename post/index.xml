@@ -6,7 +6,72 @@
         <description>Recent content in Posts on Mozi CSH</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sun, 19 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 20 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Art of Asking ChatGPT</title>
+        <link>/p/art-of-asking-chatgpt/</link>
+        <pubDate>Mon, 20 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>/p/art-of-asking-chatgpt/</guid>
+        <description>&lt;img src="/post/ChatGPTPrompt/beginnerStart.png" alt="Featured image of post Art of Asking ChatGPT" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;The Art of Asking ChatGPT for High-Quality Answers: A Complete Guide to Prompt Engineering Techniques&lt;/em&gt;&lt;br&gt;
+&lt;em&gt;&amp;ndash; Ibrahim John&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;ChatGPT is currently the most advanced language model capable of generating human-like text.&lt;/li&gt;
+&lt;li&gt;This book is a comprehensive guide designed to help you understand and utilize various prompting techniques in order to get high quality answers from ChatGPT.&lt;/li&gt;
+&lt;li&gt;The book uses easy-to-understand language to explain and is supplemented by examples and formulas for questioning techniques.&lt;/li&gt;
+&lt;li&gt;Learn how to use prompting techniques to control the output of ChatGPT and make it produce text the way you want.&lt;/li&gt;
+&lt;li&gt;Examples are provided of how to use a combination of different prompting techniques to achieve a specific purpose.&lt;/li&gt;
+&lt;li&gt;Translated with &lt;a class=&#34;link&#34; href=&#34;https://www.DeepL.com/Translator&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;www.DeepL.com/Translator&lt;/a&gt; (free version)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第一章-提示工程技术简介-introduction-to-prompt-engineering-techniques&#34;&gt;第一章: 提示工程技术简介 (Introduction to Prompt Engineering Techniques)&lt;/h2&gt;
+&lt;p&gt;❓&lt;strong&gt;什么是提示工程？&lt;/strong&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;提示工程&amp;quot;是创建提示、要求或指示的过程，用来引导ChatGPT等语言模型的输出。它允许用户控制模型的输出，生成符合他们特定需求的文本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;ChatGPT是一种最先进的语言模型，能够生成类似人类的文本。它建立在transformer 架构上，这使它能够处理大量的数据并生成高质量的文本。&lt;/p&gt;
+&lt;p&gt;提示允许用户控制模型的输出，生成相关、准确和高质量的文本。&lt;/p&gt;
+&lt;p&gt;该模型能够生成类似人类的文本，但如果没有适当的引导，它输出的内容，可能不是我们所期望的。&lt;/p&gt;
+&lt;p&gt;这就是提示工程的用武之地：通过提供清晰而具体的说明，您可以指导模型输出，确保它是相关的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;提示公式是提示的具体格式，它一般由3个要素组成:&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;任务：对模型生成内容的清晰、简洁的陈述。&lt;/p&gt;
+&lt;p&gt;说明：模型生成文本时应遵循的指令。&lt;/p&gt;
+&lt;p&gt;角色：模型在生成文本时应承担的角色。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第二章说明提示技术instructions-prompt-technique&#34;&gt;第二章：说明提示技术（Instructions Prompt Technique）.&lt;/h2&gt;
+&lt;p&gt;现在，让我们开始探索 “说明提示技术”，以及如何用它来从ChatGPT生成高质量的文本。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;说明提示技术&amp;quot;是一种指导ChatGPT输出的方法，它为模型提供具体的指令。这种技术在确保输出内容的相关性、和高质量方面，非常有用。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;要使用说明提示技术，你需要为模型提供一个清晰简明的任务，和可以遵循的具体指令。&lt;/p&gt;
+&lt;p&gt;举个例子，假如你要生成客服的回答。首先要提供一个任务，如“生成客户咨询的回复（generate responses to customer inquiries）”，以及说明：回答应该是专业的并提供准确的信息（responses should be professional and provide accurate information）&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;提示（Prompt）公式：”按照这些指示生成[任务]：[说明]”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;生成客服回复:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;任务：生成对客户咨询的回复（Generate responses to customer inquiries）&lt;/li&gt;
+&lt;li&gt;说明：回答应该是专业的并提供准确的信息（responses should be professional and provide accurate information）&lt;/li&gt;
+&lt;li&gt;提示（Prompt）公式：“生成对客户咨询的回复：回答应该是专业的并提供准确的信息”
+（Generate professional and accurate responses to customer inquiries following these instructions: The responses should be professional and provide accurate information）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;生成一份法律文件：&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;任务：生成一份法律文件&lt;/li&gt;
+&lt;li&gt;说明：该文件应符合相关法律和法规的规定&lt;/li&gt;
+&lt;li&gt;提示（Prompt）公式：”按照这些指令，生成一份符合相关法律和法规的法律文件：该文件应符合相关法律和法规。”
+（Generate a legal document that is compliant with relevant laws and regulations following these instructions: The document should be in compliance with relevant laws and regulations）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;在使用指令提示技术时，重点是：指令应该是清晰、具体的。&lt;/p&gt;
+&lt;p&gt;这将会确保输出内容具有相关性、和高质量。指令提示技术可以和下一章中将解释的 “角色提示 “和 “种子词提示 “结合起来，提高ChatGPT的输出质量。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;第三章角色提示role-prompting-technique&#34;&gt;第三章：角色提示（role prompting technique）&lt;/h2&gt;
+</description>
+        </item>
+        <item>
         <title>Page Favories</title>
         <link>/p/page-favories/</link>
         <pubDate>Sun, 19 Mar 2023 00:00:00 +0000</pubDate>
