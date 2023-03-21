@@ -19,7 +19,24 @@ ChatGPT is currently the most advanced language model capable of generating huma
 <meta name="twitter:description" content="Introduction The Art of Asking ChatGPT for High-Quality Answers: A Complete Guide to Prompt Engineering Techniques
 &amp;ndash; Ibrahim John
 ChatGPT is currently the most advanced language model capable of generating human-like text. This book is a comprehensive guide designed to help you understand and utilize various prompting techniques in order to get high quality answers from ChatGPT. The book uses easy-to-understand language to explain and is supplemented by examples and formulas for questioning techniques."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='/post/ChatGPTPrompt/beginnerStart.png' />
+    <meta name="twitter:image" content='/post/ChatGPTPrompt/beginnerStart.png' /><style>
+    :root {
+        --article-font-family: "Rubik", var(--base-font-family);
+    }
+</style>
+
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap";
+    
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+    
+        document.head.appendChild(customFont);
+    }());
+</script>
+
     </head>
     <body class="
     article-page
@@ -217,6 +234,10 @@ ChatGPT is currently the most advanced language model capable of generating huma
     <li><a href="#第一章-提示工程技术简介-introduction-to-prompt-engineering-techniques">第一章: 提示工程技术简介 (Introduction to Prompt Engineering Techniques)</a></li>
     <li><a href="#第二章说明提示技术instructions-prompt-technique">第二章：说明提示技术（Instructions Prompt Technique）.</a></li>
     <li><a href="#第三章角色提示role-prompting-technique">第三章：角色提示（role prompting technique）</a></li>
+    <li><a href="#第四章标准提示standard-prompts">第四章：标准提示（Standard Prompts）</a></li>
+    <li><a href="#第五章零单个和小样本提示zero-one-and-few-short-prompting">第五章：零、单个和小样本提示（Zero, One and Few Short Prompting）</a></li>
+    <li><a href="#第六章让我们思考这个提示lets-think-about-this-prompt">第六章：“让我们思考这个”提示（”Let’s think about this” prompt）</a></li>
+    <li><a href="#第七章自我一致性提示self-consistency-prompt">第七章：自我一致性提示（Self-Consistency Prompt）</a></li>
   </ol>
 </nav>
         </div>
@@ -289,7 +310,7 @@ ChatGPT is currently the most advanced language model capable of generating huma
 
 
                 <time class="article-time--reading">
-                    2 minute read
+                    3 minute read
                 </time>
             </div>
         
@@ -347,20 +368,183 @@ ChatGPT is currently the most advanced language model capable of generating huma
 <ul>
 <li>任务：生成对客户咨询的回复（Generate responses to customer inquiries）</li>
 <li>说明：回答应该是专业的并提供准确的信息（responses should be professional and provide accurate information）</li>
-<li>提示（Prompt）公式：“生成对客户咨询的回复：回答应该是专业的并提供准确的信息”
-（Generate professional and accurate responses to customer inquiries following these instructions: The responses should be professional and provide accurate information）</li>
+<li>提示（Prompt）公式：“生成对客户咨询的回复：回答应该是专业的并提供准确的信息”</li>
+<li>
+<blockquote>
+<p>Generate professional and accurate responses to customer inquiries following these instructions: The responses should be professional and provide accurate information</p>
+</blockquote>
+</li>
 </ul>
 <p><strong>生成一份法律文件：</strong></p>
 <ul>
 <li>任务：生成一份法律文件</li>
 <li>说明：该文件应符合相关法律和法规的规定</li>
-<li>提示（Prompt）公式：”按照这些指令，生成一份符合相关法律和法规的法律文件：该文件应符合相关法律和法规。”
-（Generate a legal document that is compliant with relevant laws and regulations following these instructions: The document should be in compliance with relevant laws and regulations）</li>
+<li>提示（Prompt）公式：”按照这些指令，生成一份符合相关法律和法规的法律文件：该文件应符合相关法律和法规。”</li>
+<li>
+<blockquote>
+<p>Generate a legal document that is compliant with relevant laws and regulations following these instructions: The document should be in compliance with relevant laws and regulations</p>
+</blockquote>
+</li>
 </ul>
-<p>在使用指令提示技术时，重点是：指令应该是清晰、具体的。</p>
-<p>这将会确保输出内容具有相关性、和高质量。指令提示技术可以和下一章中将解释的 “角色提示 “和 “种子词提示 “结合起来，提高ChatGPT的输出质量。</p>
+<p>在使用指令提示技术时，重点是：指令应该是清晰、具体的。这将会确保输出内容具有相关性、和高质量。指令提示技术可以和下一章中将解释的 “角色提示 “和 “种子词提示 “结合起来，提高ChatGPT的输出质量。</p>
 <hr>
 <h2 id="第三章角色提示role-prompting-technique">第三章：角色提示（role prompting technique）</h2>
+<p>角色提示技术（role prompting technique），是通过为模型提供特定角色来引导ChatGPT输出的一种方法。这种技术对于生成针对特定环境或受众的文本很有用。
+要使用角色提示技术，您需要为模型提供一个明确而具体的角色。
+例如，如果你正在生成客户服务回应，你将提供一个角色，如 “客户服务代表”。</p>
+<blockquote>
+<p>提示公式：”生成[任务]作为一个[角色]”</p>
+</blockquote>
+<p><strong>生成客户服务回复：</strong></p>
+<ul>
+<li>任务：生成对客户咨询的回复（Generate responses to customer inquiries）</li>
+<li>角色：客服</li>
+<li>提示公式：”作为客服，生成对客户咨询的答复。”</li>
+<li>
+<blockquote>
+<p>Generate responses to customer inquiries as a customer service representative</p>
+</blockquote>
+</li>
+</ul>
+<p><strong>生成一份法律文件：</strong></p>
+<ul>
+<li>任务：生成一份法律文件：</li>
+<li>角色：律师</li>
+<li>提示公式：”作为律师生成一份法律文件。”</li>
+<li>
+<blockquote>
+<p>Generate a legal document as a lawyer</p>
+</blockquote>
+</li>
+</ul>
+<p>使用带有指令提示和种子词提示的角色提示技术将增强ChatGPT的输出质量。
+下面是一个如何将&rdquo;<em>指令提示、角色提示和种子词提示技术相结合</em>&ldquo;的示例：</p>
+<ul>
+<li>任务：为新智能手机生成产品描述。</li>
+<li>指令：该描述应具有信息性、说服力，并强调智能手机的独特功能。</li>
+<li>角色：营销代表</li>
+<li>种子词：”创新”</li>
+<li>
+<blockquote>
+<p>提示公式：“作为营销代表，生成一个信息量大，有说服力的产品描述，突出新智能手机的创新功能。该智能手机具有以下特点[插入你的特点]”</p>
+</blockquote>
+</li>
+<li>
+<blockquote>
+<p>As a marketing representative, generate an informative, persuasive product description that highlights the innovative features of the new smartphone. The smartphone has the following features [insert your features]</p>
+</blockquote>
+</li>
+</ul>
+<p>指令提示被用来确保产品描述具有信息性和说服力，角色提示用于确保以营销代表的角度编写描述，种子词提示用于确保描述侧重于智能手机的创新功能。</p>
+<h2 id="第四章标准提示standard-prompts">第四章：标准提示（Standard Prompts）</h2>
+<p>标准提示是引导ChatGPT输出的一个简单方法，它提供了一个具体的任务让模型完成。
+例如，如果你想生成一篇新闻的摘要，你会提供一个任务，如“总结这篇新闻”。</p>
+<blockquote>
+<p>提示公式：”生成[任务]”（Generate a [task]）</p>
+</blockquote>
+<p><strong>生成新闻文章摘要：</strong></p>
+<ul>
+<li>任务：总结这篇新闻文章</li>
+<li>提示公式：”生成这篇新闻文章的摘要”</li>
+<li>
+<blockquote>
+<p>Generate a summary of this news article</p>
+</blockquote>
+</li>
+</ul>
+<p><strong>生成产品评论：</strong></p>
+<ul>
+<li>任务：撰写有关新智能手机的评论</li>
+<li>提示公式：“生成对这款新智能手机的评论”</li>
+<li>Generate a review of this new smartphone</li>
+</ul>
+<p>此外，标准提示可以与其他技术相结合，如角色提示和种子词提示，以增强ChatGPT的输出质量。下面是一个如何将&rdquo;<em>指令提示、角色提示和种子词提示技术相结合</em>&ldquo;的示例：</p>
+<ul>
+<li>任务：为新笔记本电脑生成产品评论</li>
+<li>说明：评论应该是客观的，信息丰富的，并突出笔记本电脑的独特功能</li>
+<li>角色：技术专家</li>
+<li>种子词：“ 强大的”</li>
+<li>提示公式：“作为一名技术专家，生成一份客观且信息丰富的产品评论，突出新笔记本电脑的强大功能。”</li>
+<li>
+<blockquote>
+<p>As a tech expert, generate an objective and informative product review that highlights the powerful features of the new laptop</p>
+</blockquote>
+</li>
+</ul>
+<p>使用标准提示技术来确保模型生成产品评论，角色提示技术用于确保评论是从技术专家的角度撰写的，使用种子词提示技术来确保评论集中在笔记本电脑的强大功能上。</p>
+<h2 id="第五章零单个和小样本提示zero-one-and-few-short-prompting">第五章：零、单个和小样本提示（Zero, One and Few Short Prompting）</h2>
+<p>零提示、单个提示和小样本提示是用于从ChatGPT中生成文本的技术，只有极少或没有示例可以参考。这些技术通常用于下列情况：当前任务的可用数据有限、任务是全新的、任务定义不明确。</p>
+<p>当没有可用于任务的范例时，使用零样本提示技术。向模型提供一个普通的任务，它会根据对任务的理解生成文本。</p>
+<p>当任务只有一个范例可用时，可以使用单样本提示技术。提供了一个范例给模型，模型根据对该范例的理解生成文本。</p>
+<p>当可用于任务的范例数量有限时，使用小样本提示技术。提供了少量范例给模型，模型根据对该范例的理解生成文本。</p>
+<blockquote>
+<p>提示公式：”基于[数量]的例子生成文本（Generate text based on [number] examples）”</p>
+</blockquote>
+<p><strong>为一个新产品生成产品描述，没有可用的例子。</strong></p>
+<ul>
+<li>任务：为新智能手机生成产品描述。</li>
+<li>提示公式：”为这个新的智能手表生成一个产品描述，没有范例”</li>
+<li>
+<blockquote>
+<p>Generate a product description for this new smartwatch with zero examples</p>
+</blockquote>
+</li>
+</ul>
+<p><strong>为这个产品生成产品比较，只有一个范例可用。</strong></p>
+<ul>
+<li>任务：将一款新的智能手机与最新的iPhone进行比较</li>
+<li>提示公式：”生成这个新智能手机的产品比较，有一个例子（最新的iPhone）”</li>
+<li>
+<blockquote>
+<p>Generate a product comparison of this new smartphone with one example (latest iPhone)</p>
+</blockquote>
+</li>
+</ul>
+<p><strong>生成一个产品评论，可用的例子很少。</strong></p>
+<ul>
+<li>任务：写一篇新电子阅读器的评论</li>
+<li>提示公式：“用几个例子（其他 3 个电子阅读器）生成对这个新电子阅读器的评论”</li>
+<li>
+<blockquote>
+<p>Generate a review of this new e-reader with few examples (3 other e-readers)</p>
+</blockquote>
+</li>
+</ul>
+<p>根据模型对任务或所提供范例的理解来生成文本。</p>
+<h2 id="第六章让我们思考这个提示lets-think-about-this-prompt">第六章：“让我们思考这个”提示（”Let’s think about this” prompt）</h2>
+<p>“让我们思考这个”提示是一种用于鼓励ChatGPT生成反思性、沉思性文本的技术。这种技术对于写作散文，诗歌或创造性写作等任务很有用。</p>
+<blockquote>
+<p>使用方法：Let’s think about this：主题</p>
+</blockquote>
+<p><strong>生成一篇反思性文章：</strong></p>
+<ul>
+<li>任务：写一篇关于个人成长主题的反思性文章</li>
+<li>提示公式：“让我们思考这个：个人成长”</li>
+</ul>
+<blockquote>
+<p>”Let’s think about this: personal growth</p>
+</blockquote>
+<p><strong>生成一首诗：</strong></p>
+<ul>
+<li>任务：写一首关于季节变化的诗</li>
+<li>提示公式：“让我们想想这个：不断变化的季节”</li>
+<li>Let’s think about this: the changing seasons</li>
+</ul>
+<p>要在ChatGPT中使用“让我们思考这个”技术，您可以按照以下步骤操作：</p>
+<ol>
+<li>确定您要讨论的主题或想法。</li>
+<li>制定一个提示，清楚地说明主题或想法，并开始对话或文本生成。</li>
+<li>在提示前面加上“让我们思考”或“让我们讨论” ，表明您正在发起对话或讨论。</li>
+</ol>
+<p>以下是使用此技术的一些提示示例：</p>
+<blockquote>
+<p>提示：“让我们思考一下气候变化对农业的影响”<br>
+提示：“让我们讨论一下人工智能的现状”<br>
+提示：“让我们谈谈远程工作的好处和缺点”</p>
+</blockquote>
+<p>您还可以添加一个开放式问题、语句或一段文本，希望模型继续或构建。
+提供提示后，模型将使用其训练数据和算法生成与提示相关的响应，并以连贯的方式继续对话。这个独特的提示，帮助ChatGPT以不同的视角和角度给出答案，从而产生更具动态性和信息性的段落。</p>
+<h2 id="第七章自我一致性提示self-consistency-prompt">第七章：自我一致性提示（Self-Consistency Prompt）</h2>
 
 </section>
 
@@ -475,6 +659,8 @@ ChatGPT is currently the most advanced language model capable of generating huma
     </section>
     
     <section class="powerby">
+        
+            MoziCSH <br/>
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
         Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>

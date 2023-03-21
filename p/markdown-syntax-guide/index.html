@@ -22,7 +22,24 @@ This is level 5 this is level 6 Line Break 🏷️Definition'>
 The heading level can be set from 1 to 6 and its font size is from large to small. Use the &amp;lsquo;#&amp;rsquo; symbol followed by a space at the beginning of a line to define a heading, with more symbols indicating smaller levels. ✏️Write a Sample
 ##### This is level 5 ###### this is level 6 🌟Preview Effect
 This is level 5 this is level 6 Line Break 🏷️Definition"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='/post/markdown/beginnerStart.png' />
+    <meta name="twitter:image" content='/post/markdown/beginnerStart.png' /><style>
+    :root {
+        --article-font-family: "Rubik", var(--base-font-family);
+    }
+</style>
+
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap";
+    
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+    
+        document.head.appendChild(customFont);
+    }());
+</script>
+
     </head>
     <body class="
     article-page
@@ -748,6 +765,8 @@ This <strong>word</strong> is bold. This <em>word</em> is italic.</p>
     </section>
     
     <section class="powerby">
+        
+            MoziCSH <br/>
         Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
         Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
     </section>
