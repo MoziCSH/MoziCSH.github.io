@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Introduction The Art of Asking ChatGPT for High-Quality Answers: A Complete Guide to Prompt Engineering Techniques
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Introduction The Art of Asking ChatGPT for High-Quality Answers
+: A Complete Guide to Prompt Engineering Techniques
 &amp;ndash; Ibrahim John
-ChatGPT is currently the most advanced language model capable of generating human-like text. This book is a comprehensive guide designed to help you understand and utilize various prompting techniques in order to get high quality answers from ChatGPT. The book uses easy-to-understand language to explain and is supplemented by examples and formulas for questioning techniques.'>
+This book is a comprehensive guide to understanding and utilizing various prompt techniques used to generate high-quality answers from ChatGPT.
+We will explore how different prompt engineering techniques can be used to achieve different goals. ChatGPT is a state-of-the-art language model that is capable of generating human-like text. However, it is vital to understand the right way to ask ChatGPT in order to get the high-quality outputs we desire.'>
 <title>Art of Asking ChatGPT</title>
 
 <link rel='canonical' href='/p/art-of-asking-chatgpt/'>
 
 <link rel="stylesheet" href="/scss/style.min.5be32ca3f6e1a997c75795c4359147cc6d4fbd34948c0acd51e31d237033978a.css"><meta property='og:title' content='Art of Asking ChatGPT'>
-<meta property='og:description' content='Introduction The Art of Asking ChatGPT for High-Quality Answers: A Complete Guide to Prompt Engineering Techniques
+<meta property='og:description' content='Introduction The Art of Asking ChatGPT for High-Quality Answers
+: A Complete Guide to Prompt Engineering Techniques
 &amp;ndash; Ibrahim John
-ChatGPT is currently the most advanced language model capable of generating human-like text. This book is a comprehensive guide designed to help you understand and utilize various prompting techniques in order to get high quality answers from ChatGPT. The book uses easy-to-understand language to explain and is supplemented by examples and formulas for questioning techniques.'>
+This book is a comprehensive guide to understanding and utilizing various prompt techniques used to generate high-quality answers from ChatGPT.
+We will explore how different prompt engineering techniques can be used to achieve different goals. ChatGPT is a state-of-the-art language model that is capable of generating human-like text. However, it is vital to understand the right way to ask ChatGPT in order to get the high-quality outputs we desire.'>
 <meta property='og:url' content='/p/art-of-asking-chatgpt/'>
 <meta property='og:site_name' content='Mozi CSH'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='ChatGPT' /><meta property='article:published_time' content='2023-03-20T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-03-20T00:00:00&#43;00:00'/><meta property='og:image' content='/post/ChatGPTPrompt/beginnerStart.png' />
 <meta name="twitter:title" content="Art of Asking ChatGPT">
-<meta name="twitter:description" content="Introduction The Art of Asking ChatGPT for High-Quality Answers: A Complete Guide to Prompt Engineering Techniques
+<meta name="twitter:description" content="Introduction The Art of Asking ChatGPT for High-Quality Answers
+: A Complete Guide to Prompt Engineering Techniques
 &amp;ndash; Ibrahim John
-ChatGPT is currently the most advanced language model capable of generating human-like text. This book is a comprehensive guide designed to help you understand and utilize various prompting techniques in order to get high quality answers from ChatGPT. The book uses easy-to-understand language to explain and is supplemented by examples and formulas for questioning techniques."><meta name="twitter:card" content="summary_large_image">
+This book is a comprehensive guide to understanding and utilizing various prompt techniques used to generate high-quality answers from ChatGPT.
+We will explore how different prompt engineering techniques can be used to achieve different goals. ChatGPT is a state-of-the-art language model that is capable of generating human-like text. However, it is vital to understand the right way to ask ChatGPT in order to get the high-quality outputs we desire."><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='/post/ChatGPTPrompt/beginnerStart.png' /><style>
     :root {
         --article-font-family: "Rubik", var(--base-font-family);
@@ -231,13 +237,91 @@ ChatGPT is currently the most advanced language model capable of generating huma
             <nav id="TableOfContents">
   <ol>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#第一章-提示工程技术简介-introduction-to-prompt-engineering-techniques">第一章: 提示工程技术简介 (Introduction to Prompt Engineering Techniques)</a></li>
-    <li><a href="#第二章说明提示技术instructions-prompt-technique">第二章：说明提示技术（Instructions Prompt Technique）.</a></li>
-    <li><a href="#第三章角色提示role-prompting-technique">第三章：角色提示（role prompting technique）</a></li>
-    <li><a href="#第四章标准提示standard-prompts">第四章：标准提示（Standard Prompts）</a></li>
-    <li><a href="#第五章零单个和小样本提示zero-one-and-few-short-prompting">第五章：零、单个和小样本提示（Zero, One and Few Short Prompting）</a></li>
-    <li><a href="#第六章让我们思考这个提示lets-think-about-this-prompt">第六章：“让我们思考这个”提示（”Let’s think about this” prompt）</a></li>
-    <li><a href="#第七章自我一致性提示self-consistency-prompt">第七章：自我一致性提示（Self-Consistency Prompt）</a></li>
+    <li><a href="#chapter-1-introduction-to-prompt-engineering-techniques">Chapter 1: Introduction to Prompt Engineering Techniques</a>
+      <ol>
+        <li><a href="#prompt-formula">Prompt Formula</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-2-instructions-prompt-technique">Chapter 2: Instructions Prompt Technique</a>
+      <ol>
+        <li><a href="#generating-customer-service-responses">Generating customer service responses:</a></li>
+        <li><a href="#generating-a-legal-document">Generating a legal document:</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-3-role-prompting">Chapter 3: Role Prompting</a>
+      <ol>
+        <li><a href="#generating-customer-service-responses-1">Generating customer service responses:</a></li>
+        <li><a href="#generating-a-legal-document-1">Generating a legal document:</a></li>
+        <li><a href="#instruction-prompting-role-prompting-and-seed-word-prompting-techniques-combined">Instruction prompting, Role prompting, and Seed-word prompting techniques combined:</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-4-standard-prompts">Chapter 4: Standard Prompts</a>
+      <ol>
+        <li><a href="#generating-a-summary-of-a-news-article">Generating a summary of a news article:</a></li>
+        <li><a href="#generating-a-product-review">Generating a product review:</a></li>
+        <li><a href="#standard-prompts-role-prompting-and-seed-word-prompting-techniques-combined">Standard prompts, Role prompting, and Seed-word prompting techniques combined:</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-5-zero-one-and-few-shot-prompting">Chapter 5: Zero, One and Few Shot Prompting</a>
+      <ol>
+        <li><a href="#generating-a-product-description-for-a-new-product-with-no-examples-available">Generating a product description for a new product with no examples available:</a></li>
+        <li><a href="#generating-a-product-comparison-with-one-example-available">Generating a product comparison with one example available:</a></li>
+        <li><a href="#generating-a-product-review-with-few-examples-available">Generating a product review with few examples available:</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-6-lets-think-about-this-prompt">Chapter 6: &ldquo;Let’s think about this” prompt</a>
+      <ol>
+        <li><a href="#generating-a-reflective-essay">Generating a reflective essay:</a></li>
+        <li><a href="#generating-a-poem">Generating a poem:</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-7-self-consistency-prompt">Chapter 7: Self-Consistency Prompt</a>
+      <ol>
+        <li><a href="#text-generation">Text Generation</a></li>
+        <li><a href="#text-summarization">Text Summarization</a></li>
+        <li><a href="#text-completion">Text Completion</a></li>
+        <li><a href="#fact-checking">Fact-checking</a></li>
+        <li><a href="#data-validation">Data validation</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-8-seed-word-prompt">Chapter 8: Seed-word Prompt</a>
+      <ol>
+        <li><a href="#text-generation-1">Text generation:</a></li>
+        <li><a href="#language-translation">Language Translation:</a></li>
+        <li><a href="#text-generation-2">Text Generation</a></li>
+        <li><a href="#text-completion-1">Text Completion</a></li>
+        <li><a href="#text-summarization-1">Text Summarization</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-9-knowledge-generation-prompt">Chapter 9: Knowledge Generation prompt</a>
+      <ol>
+        <li><a href="#knowledge-generation">Knowledge Generation</a></li>
+        <li><a href="#question-answering">Question Answering</a></li>
+        <li><a href="#knowledge-integration">Knowledge Integration</a></li>
+        <li><a href="#data-analysis">Data Analysis</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-10-knowledge-integration-prompts">Chapter 10: Knowledge Integration prompts</a>
+      <ol>
+        <li><a href="#knowledge-integration-1">Knowledge Integration</a></li>
+        <li><a href="#connecting-pieces-of-information">Connecting pieces of information</a></li>
+        <li><a href="#updating-existing-knowledge">Updating existing knowledge</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-11-multiple-choice-prompts">Chapter 11: Multiple Choice prompts</a>
+      <ol>
+        <li><a href="#question-answering-1">Question Answering</a></li>
+        <li><a href="#text-completion-2">Text completion</a></li>
+        <li><a href="#sentiment-analysis">Sentiment analysis</a></li>
+      </ol>
+    </li>
+    <li><a href="#chapter-12-interpretable-soft-prompts">Chapter 12: Interpretable Soft Prompts</a>
+      <ol>
+        <li><a href="#text-generation-3">Text generation</a></li>
+        <li><a href="#text-completion-3">Text completion</a></li>
+        <li><a href="#language-modeling">Language modeling</a></li>
+      </ol>
+    </li>
   </ol>
 </nav>
         </div>
@@ -310,7 +394,7 @@ ChatGPT is currently the most advanced language model capable of generating huma
 
 
                 <time class="article-time--reading">
-                    3 minute read
+                    17 minute read
                 </time>
             </div>
         
@@ -326,225 +410,376 @@ ChatGPT is currently the most advanced language model capable of generating huma
     
     
     <h2 id="introduction">Introduction</h2>
-<p><em>The Art of Asking ChatGPT for High-Quality Answers: A Complete Guide to Prompt Engineering Techniques</em><br>
+<p><em>The Art of Asking ChatGPT for High-Quality Answers</em><br>
+<em>: A Complete Guide to Prompt Engineering Techniques</em><br>
 <em>&ndash; Ibrahim John</em></p>
+<p>This book is a comprehensive guide to <strong>understanding and utilizing various prompt techniques</strong> used to generate <strong>high-quality answers</strong> from ChatGPT.</p>
+<p>We will explore how different <strong>prompt engineering techniques</strong> can be used to achieve different goals. ChatGPT is a state-of-the-art
+language model that is capable of generating human-like text. However, <strong>it is vital to understand the right way to ask ChatGPT in
+order to get the high-quality outputs we desire.</strong></p>
+<p><strong>I have used simple language with on-point practical
+explanations, together with examples and prompt formulas on  every prompt technique.</strong>  With this book, you&rsquo;ll learn how to use
+prompt engineering techniques to control the output of ChatGPT and
+generate text that is tailored to your specific needs.</p>
+<p>Throughout this book, we also provide examples of <strong>how to combine different prompt techniques</strong> to achieve more specific outcomes.</p>
+<h2 id="chapter-1-introduction-to-prompt-engineering-techniques">Chapter 1: Introduction to Prompt Engineering Techniques</h2>
+<p><code>What is Prompt engineering?</code><br>
+Prompt engineering is the process of creating prompts or asking or instructions that guide the output of a language model like ChatGPT. It allows users to control the output of the model and generate text that is tailored to their specific needs.</p>
+<p>ChatGPT is a state-of-the-art language model that is capable of generating human-like text. It is built on the transformer architecture, which allows it to handle large amounts of data and generate highquality text.</p>
+<p>However, in order to get the best results from ChatGPT, it is
+important to understand how to properly prompt the model.</p>
+<p>Prompting allows users to control the output of the model and
+generate text that is relevant, accurate, and of high-quality.</p>
+<p>When working with ChatGPT, it is important to understand its
+capabilities and limitations.</p>
+<p>The model is capable of generating human-like text, but it may not always produce the desired output without proper guidance.</p>
+<p>This is where prompt engineering comes in, by providing clear and specific instructions, you can guide the model&rsquo;s output and ensure that it is relevant.</p>
+<h3 id="prompt-formula">Prompt Formula</h3>
+<p><code>A prompt formula is a specific format for the prompt, it is generally composed of 3 main elements:</code></p>
 <ul>
-<li>ChatGPT is currently the most advanced language model capable of generating human-like text.</li>
-<li>This book is a comprehensive guide designed to help you understand and utilize various prompting techniques in order to get high quality answers from ChatGPT.</li>
-<li>The book uses easy-to-understand language to explain and is supplemented by examples and formulas for questioning techniques.</li>
-<li>Learn how to use prompting techniques to control the output of ChatGPT and make it produce text the way you want.</li>
-<li>Examples are provided of how to use a combination of different prompting techniques to achieve a specific purpose.</li>
-<li>Translated with <a class="link" href="https://www.DeepL.com/Translator"  target="_blank" rel="noopener"
-    >www.DeepL.com/Translator</a> (free version)</li>
+<li><strong>task</strong>: a clear and concise statement of what the prompt is asking the model to generate.</li>
+<li><strong>instructions</strong>: the instructions that should be followed by the model when generating text.</li>
+<li><strong>role</strong>: the role that the model should take on when generating text.</li>
 </ul>
-<hr>
-<h2 id="第一章-提示工程技术简介-introduction-to-prompt-engineering-techniques">第一章: 提示工程技术简介 (Introduction to Prompt Engineering Techniques)</h2>
-<p>❓<strong>什么是提示工程？</strong></p>
+<p>In this book, we will explore the various prompt engineering
+techniques that can be used with ChatGPT. We will discuss the
+different types of prompts, as well as how to use them to achieve specific goals you want.</p>
+<h2 id="chapter-2-instructions-prompt-technique">Chapter 2: Instructions Prompt Technique</h2>
+<p>The instructions prompt technique is a way of guiding the output of ChatGPT by providing specific instructions for the model to follow.<br>
+This technique is useful for ensuring that the output is relevant and high-quality.<br>
+To use the instructions prompt technique, you will need to provide a clear and concise task for the model, as well as specific instructions for the model to follow.</p>
+<p>For example, if you are generating customer service responses,
+you would provide a task such as &ldquo;generate responses to customer inquiries&rdquo; and instructions such as &ldquo;responses should be professional and provide accurate information&rdquo;.</p>
 <blockquote>
-<p>&ldquo;提示工程&quot;是创建提示、要求或指示的过程，用来引导ChatGPT等语言模型的输出。它允许用户控制模型的输出，生成符合他们特定需求的文本。</p>
+<p>Prompt formula: &ldquo;Generate [task] following these instructions: [instructions]&rdquo;</p>
 </blockquote>
-<p>ChatGPT是一种最先进的语言模型，能够生成类似人类的文本。它建立在transformer 架构上，这使它能够处理大量的数据并生成高质量的文本。</p>
-<p>提示允许用户控制模型的输出，生成相关、准确和高质量的文本。</p>
-<p>该模型能够生成类似人类的文本，但如果没有适当的引导，它输出的内容，可能不是我们所期望的。</p>
-<p>这就是提示工程的用武之地：通过提供清晰而具体的说明，您可以指导模型输出，确保它是相关的。</p>
-<blockquote>
-<p><strong>提示公式是提示的具体格式，它一般由3个要素组成:</strong></p>
-</blockquote>
-<p>任务：对模型生成内容的清晰、简洁的陈述。</p>
-<p>说明：模型生成文本时应遵循的指令。</p>
-<p>角色：模型在生成文本时应承担的角色。</p>
-<hr>
-<h2 id="第二章说明提示技术instructions-prompt-technique">第二章：说明提示技术（Instructions Prompt Technique）.</h2>
-<p>现在，让我们开始探索 “说明提示技术”，以及如何用它来从ChatGPT生成高质量的文本。</p>
-<blockquote>
-<p>&ldquo;说明提示技术&quot;是一种指导ChatGPT输出的方法，它为模型提供具体的指令。这种技术在确保输出内容的相关性、和高质量方面，非常有用。</p>
-</blockquote>
-<p>要使用说明提示技术，你需要为模型提供一个清晰简明的任务，和可以遵循的具体指令。</p>
-<p>举个例子，假如你要生成客服的回答。首先要提供一个任务，如“生成客户咨询的回复（generate responses to customer inquiries）”，以及说明：回答应该是专业的并提供准确的信息（responses should be professional and provide accurate information）</p>
-<blockquote>
-<p>提示（Prompt）公式：”按照这些指示生成[任务]：[说明]”</p>
-</blockquote>
-<p><strong>生成客服回复:</strong></p>
+<p><strong>Examples</strong></p>
+<h3 id="generating-customer-service-responses">Generating customer service responses:</h3>
 <ul>
-<li>任务：生成对客户咨询的回复（Generate responses to customer inquiries）</li>
-<li>说明：回答应该是专业的并提供准确的信息（responses should be professional and provide accurate information）</li>
-<li>提示（Prompt）公式：“生成对客户咨询的回复：回答应该是专业的并提供准确的信息”</li>
-<li>
-<blockquote>
-<p>Generate professional and accurate responses to customer inquiries following these instructions: The responses should be professional and provide accurate information</p>
-</blockquote>
-</li>
+<li>Task: Generate responses to customer inquiries</li>
+<li>Instructions: The responses should be professional and
+provide accurate information</li>
+<li>Prompt formula: &ldquo;Generate professional and accurate
+responses to customer inquiries following these instructions:
+The responses should be professional and provide accurate
+information.&rdquo;</li>
 </ul>
-<p><strong>生成一份法律文件：</strong></p>
+<h3 id="generating-a-legal-document">Generating a legal document:</h3>
 <ul>
-<li>任务：生成一份法律文件</li>
-<li>说明：该文件应符合相关法律和法规的规定</li>
-<li>提示（Prompt）公式：”按照这些指令，生成一份符合相关法律和法规的法律文件：该文件应符合相关法律和法规。”</li>
-<li>
-<blockquote>
-<p>Generate a legal document that is compliant with relevant laws and regulations following these instructions: The document should be in compliance with relevant laws and regulations</p>
-</blockquote>
-</li>
+<li>Task: Generate a legal document</li>
+<li>Instructions: The document should be in compliance with
+relevant laws and regulations</li>
+<li>Prompt formula: &ldquo;Generate a legal document that is
+compliant with relevant laws and regulations following these
+instructions: The document should be in compliance with
+relevant laws and regulations.&rdquo;</li>
 </ul>
-<p>在使用指令提示技术时，重点是：指令应该是清晰、具体的。这将会确保输出内容具有相关性、和高质量。指令提示技术可以和下一章中将解释的 “角色提示 “和 “种子词提示 “结合起来，提高ChatGPT的输出质量。</p>
-<hr>
-<h2 id="第三章角色提示role-prompting-technique">第三章：角色提示（role prompting technique）</h2>
-<p>角色提示技术（role prompting technique），是通过为模型提供特定角色来引导ChatGPT输出的一种方法。这种技术对于生成针对特定环境或受众的文本很有用。
-要使用角色提示技术，您需要为模型提供一个明确而具体的角色。
-例如，如果你正在生成客户服务回应，你将提供一个角色，如 “客户服务代表”。</p>
+<p>When using the instructions prompt technique, it is important to keep in mind that the instructions should be clear and specific. This will help to ensure that the output is relevant and high-quality.<br>
+The instructions prompt technique can be combined together with “role prompting” and “seed-word prompting” as explained in the next chapter to enhance the output of ChatGPT.</p>
+<h2 id="chapter-3-role-prompting">Chapter 3: Role Prompting</h2>
+<p>The role prompting technique is a way of guiding the output of ChatGPT by providing a specific role for the model to take on.<br>
+This technique is useful for generating text that is tailored to a specific context or audience.</p>
+<p>To use the role prompting technique, you will need to provide a clear and specific role for the model to take on. For example, if you are generating customer service responses, you would provide a role such as &ldquo;customer service representative&rdquo;.</p>
 <blockquote>
-<p>提示公式：”生成[任务]作为一个[角色]”</p>
+<p>Prompt formula: &ldquo;Generate [task] as a [role]&rdquo;</p>
 </blockquote>
-<p><strong>生成客户服务回复：</strong></p>
+<p><strong>Examples</strong></p>
+<h3 id="generating-customer-service-responses-1">Generating customer service responses:</h3>
 <ul>
-<li>任务：生成对客户咨询的回复（Generate responses to customer inquiries）</li>
-<li>角色：客服</li>
-<li>提示公式：”作为客服，生成对客户咨询的答复。”</li>
-<li>
-<blockquote>
-<p>Generate responses to customer inquiries as a customer service representative</p>
-</blockquote>
-</li>
+<li>Task: Generate responses to customer inquiries</li>
+<li>Role: Customer service representative</li>
+<li>Prompt formula: &ldquo;Generate responses to customer inquiries
+as a customer service representative.&rdquo;</li>
 </ul>
-<p><strong>生成一份法律文件：</strong></p>
+<h3 id="generating-a-legal-document-1">Generating a legal document:</h3>
 <ul>
-<li>任务：生成一份法律文件：</li>
-<li>角色：律师</li>
-<li>提示公式：”作为律师生成一份法律文件。”</li>
-<li>
-<blockquote>
-<p>Generate a legal document as a lawyer</p>
-</blockquote>
-</li>
+<li>Task: Generate a legal document</li>
+<li>Role: Lawyer</li>
+<li>Prompt formula: &ldquo;Generate a legal document as a lawyer.&rdquo;</li>
 </ul>
-<p>使用带有指令提示和种子词提示的角色提示技术将增强ChatGPT的输出质量。
-下面是一个如何将&rdquo;<em>指令提示、角色提示和种子词提示技术相结合</em>&ldquo;的示例：</p>
+<p>Using the role prompting technique with instruction prompting and seed-word prompting will enhance the output of ChatGPT.</p>
+<h3 id="instruction-prompting-role-prompting-and-seed-word-prompting-techniques-combined">Instruction prompting, Role prompting, and Seed-word prompting techniques combined:</h3>
 <ul>
-<li>任务：为新智能手机生成产品描述。</li>
-<li>指令：该描述应具有信息性、说服力，并强调智能手机的独特功能。</li>
-<li>角色：营销代表</li>
-<li>种子词：”创新”</li>
-<li>
-<blockquote>
-<p>提示公式：“作为营销代表，生成一个信息量大，有说服力的产品描述，突出新智能手机的创新功能。该智能手机具有以下特点[插入你的特点]”</p>
-</blockquote>
-</li>
-<li>
-<blockquote>
-<p>As a marketing representative, generate an informative, persuasive product description that highlights the innovative features of the new smartphone. The smartphone has the following features [insert your features]</p>
-</blockquote>
-</li>
+<li>Task: Generate a product description for a new smartphone</li>
+<li>Instructions: The description should be informative,
+persuasive and highlight the unique features of the
+smartphone</li>
+<li>Role: Marketing representative</li>
+<li>Seed-word: &ldquo;innovative&rdquo;</li>
+<li>Prompt formula: &ldquo;As a marketing representative, generate an informative, persuasive product description that highlights the innovative features of the new smartphone. The smartphone has the following features [insert your features]”</li>
 </ul>
-<p>指令提示被用来确保产品描述具有信息性和说服力，角色提示用于确保以营销代表的角度编写描述，种子词提示用于确保描述侧重于智能手机的创新功能。</p>
-<h2 id="第四章标准提示standard-prompts">第四章：标准提示（Standard Prompts）</h2>
-<p>标准提示是引导ChatGPT输出的一个简单方法，它提供了一个具体的任务让模型完成。
-例如，如果你想生成一篇新闻的摘要，你会提供一个任务，如“总结这篇新闻”。</p>
+<p>In this example, the instruction prompting is used to ensure that the product description is informative and persuasive. The role prompting is used to ensure that the description is written from the perspective of a marketing representative. And the seed-word prompting is used to ensure that the description focuses on the innovative features of the smartphone.</p>
+<h2 id="chapter-4-standard-prompts">Chapter 4: Standard Prompts</h2>
+<p>Standard prompts are a simple way to guide the output of
+ChatGPT by providing a specific task for the model to complete.<br>
+For example, if you want to generate a summary of a news article, you would provide a task such as &ldquo;summarize this news article&rdquo;.</p>
 <blockquote>
-<p>提示公式：”生成[任务]”（Generate a [task]）</p>
+<p>Prompt formula: &ldquo;Generate a [task]&rdquo;</p>
 </blockquote>
-<p><strong>生成新闻文章摘要：</strong></p>
+<p><strong>Examples</strong></p>
+<h3 id="generating-a-summary-of-a-news-article">Generating a summary of a news article:</h3>
 <ul>
-<li>任务：总结这篇新闻文章</li>
-<li>提示公式：”生成这篇新闻文章的摘要”</li>
-<li>
-<blockquote>
-<p>Generate a summary of this news article</p>
-</blockquote>
-</li>
+<li>Task: Summarize this news article</li>
+<li>Prompt formula: &ldquo;Generate a summary of this news article&rdquo;</li>
 </ul>
-<p><strong>生成产品评论：</strong></p>
+<h3 id="generating-a-product-review">Generating a product review:</h3>
 <ul>
-<li>任务：撰写有关新智能手机的评论</li>
-<li>提示公式：“生成对这款新智能手机的评论”</li>
-<li>Generate a review of this new smartphone</li>
+<li>Task: Write a review of a new smartphone</li>
+<li>Prompt formula: &ldquo;Generate a review of this new smartphone&rdquo;</li>
 </ul>
-<p>此外，标准提示可以与其他技术相结合，如角色提示和种子词提示，以增强ChatGPT的输出质量。下面是一个如何将&rdquo;<em>指令提示、角色提示和种子词提示技术相结合</em>&ldquo;的示例：</p>
+<p>Also, Standard prompts can be combined with other techniques
+like role prompting and seed-word prompting to enhance the output of ChatGPT.</p>
+<h3 id="standard-prompts-role-prompting-and-seed-word-prompting-techniques-combined">Standard prompts, Role prompting, and Seed-word prompting techniques combined:</h3>
 <ul>
-<li>任务：为新笔记本电脑生成产品评论</li>
-<li>说明：评论应该是客观的，信息丰富的，并突出笔记本电脑的独特功能</li>
-<li>角色：技术专家</li>
-<li>种子词：“ 强大的”</li>
-<li>提示公式：“作为一名技术专家，生成一份客观且信息丰富的产品评论，突出新笔记本电脑的强大功能。”</li>
-<li>
-<blockquote>
-<p>As a tech expert, generate an objective and informative product review that highlights the powerful features of the new laptop</p>
-</blockquote>
-</li>
+<li>Task: Generate a product review for a new laptop</li>
+<li>Instructions: The review should be objective, informative and highlight the unique features of the laptop</li>
+<li>Role: Tech expert</li>
+<li>Seed-word: &ldquo;powerful&rdquo;</li>
+<li>Prompt formula: &ldquo;As a tech expert, generate an objective and informative product review that highlights the powerful
+features of the new laptop.&rdquo;</li>
 </ul>
-<p>使用标准提示技术来确保模型生成产品评论，角色提示技术用于确保评论是从技术专家的角度撰写的，使用种子词提示技术来确保评论集中在笔记本电脑的强大功能上。</p>
-<h2 id="第五章零单个和小样本提示zero-one-and-few-short-prompting">第五章：零、单个和小样本提示（Zero, One and Few Short Prompting）</h2>
-<p>零提示、单个提示和小样本提示是用于从ChatGPT中生成文本的技术，只有极少或没有示例可以参考。这些技术通常用于下列情况：当前任务的可用数据有限、任务是全新的、任务定义不明确。</p>
-<p>当没有可用于任务的范例时，使用零样本提示技术。向模型提供一个普通的任务，它会根据对任务的理解生成文本。</p>
-<p>当任务只有一个范例可用时，可以使用单样本提示技术。提供了一个范例给模型，模型根据对该范例的理解生成文本。</p>
-<p>当可用于任务的范例数量有限时，使用小样本提示技术。提供了少量范例给模型，模型根据对该范例的理解生成文本。</p>
+<p>In this example, the standard prompts technique is used to ensure that the model generates a product review. The role prompting is used to ensure that the review is written from the perspective of a tech expert. And the seedword prompting is used to ensure that the review focuses on the powerful features of the laptop.</p>
+<h2 id="chapter-5-zero-one-and-few-shot-prompting">Chapter 5: Zero, One and Few Shot Prompting</h2>
+<p>Zero-shot, one-shot, and few-shot prompting are techniques used to generate text from ChatGPT with minimal or no examples. These techniques are useful when there is limited data available for a specific task or when the task is new and not well-defined.</p>
+<p>The zero-shot prompting technique is used when there are no
+examples available for the task. The model is provided with a general task and it generates text based on its understanding of the task.</p>
+<p>The one-shot prompting technique is used when there is only one example available for the task. The model is provided with the example and generates text based on its understanding of the example.</p>
+<p>The few-shot prompting technique is used when there are a limited number of examples available for the task. The model is provided with the examples and generates text based on its understanding of the examples.</p>
 <blockquote>
-<p>提示公式：”基于[数量]的例子生成文本（Generate text based on [number] examples）”</p>
+<p>Prompt formula: &ldquo;Generate text based on [number] examples&rdquo;</p>
 </blockquote>
-<p><strong>为一个新产品生成产品描述，没有可用的例子。</strong></p>
+<p><strong>Examples</strong></p>
+<h3 id="generating-a-product-description-for-a-new-product-with-no-examples-available">Generating a product description for a new product with no examples available:</h3>
 <ul>
-<li>任务：为新智能手机生成产品描述。</li>
-<li>提示公式：”为这个新的智能手表生成一个产品描述，没有范例”</li>
-<li>
-<blockquote>
-<p>Generate a product description for this new smartwatch with zero examples</p>
-</blockquote>
-</li>
+<li>Task: Write a product description for a new smartwatch</li>
+<li>Prompt formula: &ldquo;Generate a product description for this new smartwatch with zero examples&rdquo;</li>
 </ul>
-<p><strong>为这个产品生成产品比较，只有一个范例可用。</strong></p>
+<h3 id="generating-a-product-comparison-with-one-example-available">Generating a product comparison with one example available:</h3>
 <ul>
-<li>任务：将一款新的智能手机与最新的iPhone进行比较</li>
-<li>提示公式：”生成这个新智能手机的产品比较，有一个例子（最新的iPhone）”</li>
-<li>
-<blockquote>
-<p>Generate a product comparison of this new smartphone with one example (latest iPhone)</p>
-</blockquote>
-</li>
+<li>Task: Compare a new smartphone to the latest iPhone</li>
+<li>Prompt formula: &ldquo;Generate a product comparison of this new
+smartphone with one example (latest iPhone)&rdquo;</li>
 </ul>
-<p><strong>生成一个产品评论，可用的例子很少。</strong></p>
+<h3 id="generating-a-product-review-with-few-examples-available">Generating a product review with few examples available:</h3>
 <ul>
-<li>任务：写一篇新电子阅读器的评论</li>
-<li>提示公式：“用几个例子（其他 3 个电子阅读器）生成对这个新电子阅读器的评论”</li>
-<li>
-<blockquote>
-<p>Generate a review of this new e-reader with few examples (3 other e-readers)</p>
-</blockquote>
-</li>
+<li>Task: Write a review of a new e-reader</li>
+<li>Prompt formula: &ldquo;Generate a review of this new e-reader with few examples (3 other e-readers)&rdquo;</li>
 </ul>
-<p>根据模型对任务或所提供范例的理解来生成文本。</p>
-<h2 id="第六章让我们思考这个提示lets-think-about-this-prompt">第六章：“让我们思考这个”提示（”Let’s think about this” prompt）</h2>
-<p>“让我们思考这个”提示是一种用于鼓励ChatGPT生成反思性、沉思性文本的技术。这种技术对于写作散文，诗歌或创造性写作等任务很有用。</p>
+<p>These techniques can be used to generate text based on a model&rsquo;s understanding of the task or examples provided.</p>
+<h2 id="chapter-6-lets-think-about-this-prompt">Chapter 6: &ldquo;Let’s think about this” prompt</h2>
+<p>The &ldquo;Let&rsquo;s think about this&rdquo; prompt is a technique used to encourage ChatGPT to generate text that is reflective and contemplative. This technique is useful for tasks such as writing essays, poetry, or creative writing.</p>
 <blockquote>
-<p>使用方法：Let’s think about this：主题</p>
+<p>The prompt formula for the &ldquo;Let&rsquo;s think about this&rdquo; prompt is simply the phrase &ldquo;Let&rsquo;s think about this&rdquo; followed by a topic or question.</p>
 </blockquote>
-<p><strong>生成一篇反思性文章：</strong></p>
+<p><strong>Examples</strong></p>
+<h3 id="generating-a-reflective-essay">Generating a reflective essay:</h3>
 <ul>
-<li>任务：写一篇关于个人成长主题的反思性文章</li>
-<li>提示公式：“让我们思考这个：个人成长”</li>
+<li>Task: Write a reflective essay on the topic of personal growth</li>
+<li>Prompt formula: &ldquo;Let&rsquo;s think about this: personal growth&rdquo;</li>
 </ul>
-<blockquote>
-<p>”Let’s think about this: personal growth</p>
-</blockquote>
-<p><strong>生成一首诗：</strong></p>
+<h3 id="generating-a-poem">Generating a poem:</h3>
 <ul>
-<li>任务：写一首关于季节变化的诗</li>
-<li>提示公式：“让我们想想这个：不断变化的季节”</li>
-<li>Let’s think about this: the changing seasons</li>
+<li>Task: Write a poem about the changing seasons</li>
+<li>Prompt formula: &ldquo;Let&rsquo;s think about this: the changing seasons&rdquo;</li>
 </ul>
-<p>要在ChatGPT中使用“让我们思考这个”技术，您可以按照以下步骤操作：</p>
+<p>This prompt is asking for a conversation or discussion about a specific topic or idea. The speaker is inviting ChatGPT to engage in a dialogue about the subject at hand.</p>
+<p>The model is provided with a prompt, which serves as the starting point for the conversation or text generation.</p>
+<p>The model then uses its training data and algorithms to generate a response that is relevant to the prompt. This technique allows ChatGPT to generate contextually appropriate and coherent text based on the provided prompt.</p>
+<p><code>To use the &quot;Let’s think about this prompt&quot; technique with ChatGPT, you can follow these steps:</code></p>
 <ol>
-<li>确定您要讨论的主题或想法。</li>
-<li>制定一个提示，清楚地说明主题或想法，并开始对话或文本生成。</li>
-<li>在提示前面加上“让我们思考”或“让我们讨论” ，表明您正在发起对话或讨论。</li>
+<li>Identify the topic or idea you want to discuss.</li>
+<li>Formulate a prompt that clearly states the topic or idea, and starts the conversation or text generation.</li>
+<li>Preface the prompt with &ldquo;Let&rsquo;s think about&rdquo; or &ldquo;Let&rsquo;s discuss&rdquo; to indicate that you&rsquo;re initiating a conversation or discussion.</li>
 </ol>
-<p>以下是使用此技术的一些提示示例：</p>
+<p><strong>Examples</strong></p>
 <blockquote>
-<p>提示：“让我们思考一下气候变化对农业的影响”<br>
-提示：“让我们讨论一下人工智能的现状”<br>
-提示：“让我们谈谈远程工作的好处和缺点”</p>
+<p>Prompt: &ldquo;Let&rsquo;s think about the impact of climate change on agriculture&rdquo;<br>
+Prompt: &ldquo;Let&rsquo;s discuss the current state of artificial intelligence&rdquo;<br>
+Prompt: &ldquo;Let&rsquo;s talk about the benefits and drawbacks of remote work&rdquo;</p>
 </blockquote>
-<p>您还可以添加一个开放式问题、语句或一段文本，希望模型继续或构建。
-提供提示后，模型将使用其训练数据和算法生成与提示相关的响应，并以连贯的方式继续对话。这个独特的提示，帮助ChatGPT以不同的视角和角度给出答案，从而产生更具动态性和信息性的段落。</p>
-<h2 id="第七章自我一致性提示self-consistency-prompt">第七章：自我一致性提示（Self-Consistency Prompt）</h2>
+<p>You can also add a open-ended question, statement or a piece of text that you want the model to continue or build upon.</p>
+<p>Once you provide the prompt, the model will use its training data and algorithms to generate a response that is relevant to the prompt and will continue the conversation in a coherent way.</p>
+<p>This unique prompt helps ChatGPT to give answers in different perspectives and angles, resulting in more dynamic and informative passages.</p>
+<p>The steps to use the prompt are simple and easy to follow, and it  can truly make a difference in your writing. Give it a try and see for yourself.</p>
+<h2 id="chapter-7-self-consistency-prompt">Chapter 7: Self-Consistency Prompt</h2>
+<p>The Self-Consistency prompt is a technique used to ensure that the output of ChatGPT is consistent with the input provided. This technique is useful for tasks such as fact-checking, data validation, or consistency checking in text generation.</p>
+<p>The prompt formula for the Self-Consistency prompt is the input text followed by the instruction &ldquo;Please ensure the following text is self-consistent&rdquo;</p>
+<p>Alternatively, the model can be prompted to generate text that is consistent with the provided input.</p>
+<p><strong>Examples</strong></p>
+<h3 id="text-generation">Text Generation</h3>
+<ul>
+<li>Task: Generate a product review</li>
+<li>Instructions: The review should be consistent with the</li>
+<li>product information provided in the input</li>
+<li>Prompt formula: &ldquo;Generate a product review that is consistent with the following product information [insert
+product information]&rdquo;</li>
+</ul>
+<h3 id="text-summarization">Text Summarization</h3>
+<ul>
+<li>Task: Summarize a news article</li>
+<li>Instructions: The summary should be consistent with the
+information provided in the article</li>
+<li>Prompt formula: &ldquo;Summarize the following news article in a
+way that is consistent with the information provided [insert
+news article]&rdquo;</li>
+</ul>
+<h3 id="text-completion">Text Completion</h3>
+<ul>
+<li>Task: Complete a sentence</li>
+<li>Instructions: The completion should be consistent with the
+context provided in the input</li>
+<li>Prompt formula: &ldquo;Complete the following sentence in a way
+that is consistent with the context provided [insert sentence]&rdquo;</li>
+</ul>
+<h3 id="fact-checking">Fact-checking</h3>
+<ul>
+<li>Task: Check for consistency in a given news article</li>
+<li>Input text: &ldquo;The article states that the population of the city is 5 million, but later on, it says that the population is 7 million.&rdquo;</li>
+<li>Prompt formula: &ldquo;Please ensure the following text is selfconsistent: The article states that the population of the city is 5 million, but later on, it says that the population is 7 million.&rdquo;</li>
+</ul>
+<h3 id="data-validation">Data validation</h3>
+<ul>
+<li>Task: Check for consistency in a given data set</li>
+<li>Input text: &ldquo;The data shows that the average temperature in July is 30 degrees, but the minimum temperature is recorded as 20 degrees.&rdquo;</li>
+<li>Prompt formula: &ldquo;Please ensure the following text is selfconsistent: The data shows that the average temperature in July is 30 degrees, but the minimum temperature is recorded as 20 degrees.&rdquo;</li>
+</ul>
+<h2 id="chapter-8-seed-word-prompt">Chapter 8: Seed-word Prompt</h2>
+<p>The Seed-word prompt is a technique used to control the output of ChatGPT by providing it with a specific seed-word or phrase.</p>
+<p>The prompt formula for the Seed-word prompt is the seed-word or phrase followed by the instruction &ldquo;Please generate text based on the following seed-word&rdquo;</p>
+<p><strong>Examples</strong></p>
+<h3 id="text-generation-1">Text generation:</h3>
+<ul>
+<li>Task: Generate a story about a dragon</li>
+<li>Seed-word: &ldquo;Dragon&rdquo;</li>
+<li>Prompt formula: &ldquo;Please generate text based on the following seed-word: Dragon&rdquo;</li>
+</ul>
+<h3 id="language-translation">Language Translation:</h3>
+<ul>
+<li>Task: Translate a sentence from English to Spanish</li>
+<li>Seed-word: &ldquo;Hello&rdquo;</li>
+<li>Prompt formula: &ldquo;Please generate text based on the following seed-word: Hello&rdquo;</li>
+</ul>
+<p>This technique allows the model to generate text that is related to the seed word and expand on it. It&rsquo;s a way to control the model&rsquo;s generated text to be related to a certain topic or context.
+The Seed-word prompt can be combined with role prompting and instruction prompting to create more specific and targeted generated text. By providing a seed word or phrase, the model can generate text that is related to that seed word or phrase and by providing information about the desired output and role, the model can generate text in a specific style or tone that is consistent with the role or instructions. This allows for more control over the generated text and can be useful for a wide range of applications</p>
+<p><strong>Examples</strong></p>
+<h3 id="text-generation-2">Text Generation</h3>
+<ul>
+<li>Task: Generate a poem</li>
+<li>Instructions: The poem should be related to the seed word &ldquo;love&rdquo; and should be written in the style of a sonnet.</li>
+<li>Role: Poet</li>
+<li>Prompt formula: &ldquo;Generate a sonnet related to the seed word &rsquo;love&rsquo; as a poet&rdquo;</li>
+</ul>
+<h3 id="text-completion-1">Text Completion</h3>
+<ul>
+<li>Task: Complete a sentence</li>
+<li>Instructions: The completion should be related to the seed word &ldquo;science&rdquo; and should be written in the style of a research paper</li>
+<li>Role: Researcher</li>
+<li>Prompt formula: &ldquo;Complete the following sentence in a way that is related to the seed word &lsquo;science&rsquo; and in the style of a research paper as a researcher: [insert sentence]&rdquo;</li>
+</ul>
+<h3 id="text-summarization-1">Text Summarization</h3>
+<ul>
+<li>Task: Summarize a news article</li>
+<li>Instructions: The summary should be related to the seed word &ldquo;politics&rdquo; and should be written in a neutral and unbiased tone</li>
+<li>Role: Journalist</li>
+<li>Prompt formula: &ldquo;Summarize the following news article in a way that is related to the seed word &lsquo;politics&rsquo; in a neutral and unbiased tone as a journalist: [insert news article]&rdquo;</li>
+</ul>
+<h2 id="chapter-9-knowledge-generation-prompt">Chapter 9: Knowledge Generation prompt</h2>
+<p>The Knowledge Generation prompt is a technique used to elicit new and original information from ChatGPT.
+The prompt formula for the Knowledge Generation prompt is &ldquo;Please generate new and original information about X&rdquo; where X is the
+topic of interest.
+This is a technique that uses a model&rsquo;s pre-existing knowledge to generate new information or to answer a question.
+To use this prompt with ChatGPT, the model should be provided with a question or topic as input, along with a prompt that specifies the task or goal for the generated text. The prompt should include information about the desired output, such as the type of text to be generated and any specific requirements or constraints.</p>
+<p><strong>Examples</strong></p>
+<h3 id="knowledge-generation">Knowledge Generation</h3>
+<ul>
+<li>Task: Generate new information about a specific topic</li>
+<li>Instructions: The generated information should be accurate and relevant to the topic</li>
+<li>Prompt formula: &ldquo;Generate new and accurate information about [specific topic] &quot;</li>
+</ul>
+<h3 id="question-answering">Question Answering</h3>
+<ul>
+<li>Task: Answer a question</li>
+<li>Instructions: The answer should be accurate and relevant to the question</li>
+<li>Prompt formula: &ldquo;Answer the following question: [insert question]&rdquo;</li>
+</ul>
+<h3 id="knowledge-integration">Knowledge Integration</h3>
+<ul>
+<li>Task: Integrate new information with the existing knowledge</li>
+<li>Instructions: The integration should be accurate and relevant to the topic</li>
+<li>Prompt formula: &ldquo;Integrate the following information with the existing knowledge about [specific topic]: [insert new information]&rdquo;</li>
+</ul>
+<h3 id="data-analysis">Data Analysis</h3>
+<ul>
+<li>Task: Generate insights about customer behavior from a given dataset</li>
+<li>Prompt formula: &ldquo;Please generate new and original information about customer behavior from this dataset&rdquo;</li>
+</ul>
+<h2 id="chapter-10-knowledge-integration-prompts">Chapter 10: Knowledge Integration prompts</h2>
+<p>This technique uses a model&rsquo;s pre-existing knowledge to integrate new information or to connect different pieces of information.<br>
+This technique is useful for combining existing knowledge with new information to generate a more comprehensive understanding of a specific topic.</p>
+<p>The model should be provided with a new information and the existing knowledge as input, along with a prompt that specifies the task or goal for the generated text. The prompt should include information about the desired output, such as the type of text to be generated and any specific requirements or constraints.</p>
+<p><strong>Examples</strong></p>
+<h3 id="knowledge-integration-1">Knowledge Integration</h3>
+<ul>
+<li>Task: Integrate new information with the existing knowledge</li>
+<li>Instructions: The integration should be accurate and relevant to the topic</li>
+<li>Prompt formula: &ldquo;Integrate the following information with the existing knowledge about [specific topic]: [insert new information]&rdquo;</li>
+</ul>
+<h3 id="connecting-pieces-of-information">Connecting pieces of information</h3>
+<ul>
+<li>Task: Connect different pieces of information</li>
+<li>Instructions: The connections should be relevant and logical</li>
+<li>Prompt formula: &ldquo;Connect the following pieces of information in a way that is relevant and logical: [insert information 1] [insert information 2]&rdquo;</li>
+</ul>
+<h3 id="updating-existing-knowledge">Updating existing knowledge</h3>
+<ul>
+<li>Task: Update existing knowledge with new information</li>
+<li>Instructions: The updated information should be accurate and relevant</li>
+<li>Prompt formula: &ldquo;Update the existing knowledge about [specific topic] with the following information: [insert new information]</li>
+</ul>
+<h2 id="chapter-11-multiple-choice-prompts">Chapter 11: Multiple Choice prompts</h2>
+<p>This technique presents a model with a question or task and a set of predefined options as potential answers.
+This technique is useful for generating text that is limited to a specific set of options and can be used for question-answering, text completion and other tasks. The model can generate text that is limited to the predefined options.</p>
+<p>To use the multiple-choice prompt with ChatGPT, the model should be provided with a question or task as input, along with a set of predefined options as potential answers. The prompt should also include information about the desired output, such as the type of text to be generated and any specific requirements or constraints.</p>
+<h3 id="question-answering-1">Question Answering</h3>
+<ul>
+<li>Task: Answer a multiple-choice question</li>
+<li>Instructions: The answer should be one of the predefined options</li>
+<li>Prompt formula: &ldquo;Answer the following question by selecting one of the following options: [insert question] [insert option 1] [insert option 2] [insert option 3]&rdquo;</li>
+</ul>
+<h3 id="text-completion-2">Text completion</h3>
+<ul>
+<li>Task: Complete a sentence with one of the predefined options</li>
+<li>Instructions: The completion should be one of the predefined options</li>
+<li>Prompt formula: &ldquo;Complete the following sentence by selecting one of the following options: [insert sentence] [insert option 1] [insert option 2] [insert option 3]&rdquo;</li>
+</ul>
+<h3 id="sentiment-analysis">Sentiment analysis</h3>
+<ul>
+<li>Task: Classify a text as positive, neutral or negative</li>
+<li>Instructions: The classification should be one of the predefined options</li>
+<li>Prompt formula: &ldquo;Classify the following text as positive, neutral or negative by selecting one of the following options: [insert text] [positive] [neutral] [negative]&rdquo;</li>
+</ul>
+<h2 id="chapter-12-interpretable-soft-prompts">Chapter 12: Interpretable Soft Prompts</h2>
+<p>Interpretable soft prompts is a technique that allows to control the model&rsquo;s generated text while providing some flexibility to the model.<br>
+It is done by providing the model with a set of controlled inputs and some additional information about the desired output. This technique allows for more interpretable and controllable generated text.
+<strong>Examples</strong></p>
+<h3 id="text-generation-3">Text generation</h3>
+<ul>
+<li>Task: Generate a story</li>
+<li>Instructions: The story should be based on a given set of characters and a specific theme</li>
+<li>Prompt formula: &ldquo;Generate a story based on the following characters: [insert characters] and the theme: [insert theme]&rdquo;</li>
+</ul>
+<h3 id="text-completion-3">Text completion</h3>
+<ul>
+<li>Task: Complete a sentence</li>
+<li>Instructions: The completion should be in the style of a specific author</li>
+<li>Prompt formula: &ldquo;Complete the following sentence in the style of [specific author]: [insert sentence]&rdquo;</li>
+</ul>
+<h3 id="language-modeling">Language modeling</h3>
+<ul>
+<li>Task: Generate text in a specific style</li>
+<li>Instructions: The text should be in the style of a specific period</li>
+<li>Prompt formula: &ldquo;Generate text in the style of [specific period]: [insert context]&rdquo;</li>
+</ul>
 
 </section>
 
