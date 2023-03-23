@@ -46,6 +46,38 @@ Windows ISO Windows ISO"><meta name="twitter:card" content="summary_large_image"
     <meta name="twitter:image" content='/post/PageFavorites/beginnerStart.png' /><style>
     :root {
         --article-font-family: "Rubik", var(--base-font-family);
+        --page-width: 100%;
+        --menu-icon-separation: 20px;
+        --section-separation: 5px;
+    }
+
+    .container.extended {
+        max-width: 80%;
+    }
+
+    .sidebar.left-sidebar.sticky  {
+        max-width: 15%;
+    }
+
+    .sidebar.right-sidebar.sticky  {
+        max-width: 20%;
+    }
+
+    .main-container {
+        padding: 0 5px;
+    }
+
+    .article-page .main-article .article-header .article-image img {
+        height: 600px;
+        width: 100%;
+        max-height: 50vh;
+        object-fit: cover;
+    }
+
+    body {
+        max-width: var(--page-width);
+        margin: 0 auto;
+        padding: 0 auto;
     }
 </style>
 
