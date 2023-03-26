@@ -16,18 +16,9 @@
 &lt;p&gt;&lt;em&gt;The Art of Asking ChatGPT for High-Quality Answers&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;: A Complete Guide to Prompt Engineering Techniques&lt;/em&gt;&lt;br&gt;
 &lt;em&gt;&amp;ndash; Ibrahim John&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;This book is a comprehensive guide to &lt;strong&gt;understanding and utilizing various prompt techniques&lt;/strong&gt; used to generate &lt;strong&gt;high-quality answers&lt;/strong&gt; from ChatGPT.&lt;/p&gt;
-&lt;p&gt;We will explore how different &lt;strong&gt;prompt engineering techniques&lt;/strong&gt; can be used to achieve different goals. ChatGPT is a state-of-the-art
-language model that is capable of generating human-like text. However, &lt;strong&gt;it is vital to understand the right way to ask ChatGPT in order to get the high-quality outputs we desire.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;I have used simple language with on-point practical explanations, together with examples and prompt formulas on  every prompt technique.&lt;/strong&gt;  With this book, you&amp;rsquo;ll learn how to use prompt engineering techniques to control the output of ChatGPT and generate text that is tailored to your specific needs.&lt;/p&gt;
-&lt;p&gt;Throughout this book, we also provide examples of &lt;strong&gt;how to combine different prompt techniques&lt;/strong&gt; to achieve more specific outcomes.&lt;/p&gt;
 &lt;h2 id=&#34;chapter-1-introduction-to-prompt-engineering-techniques&#34;&gt;Chapter 1: Introduction to Prompt Engineering Techniques&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;What is Prompt engineering?&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;Prompt engineering is the process of creating prompts or asking or instructions that guide the output of a language model like ChatGPT. It allows users to control the output of the model and generate text that is tailored to their specific needs.&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;ChatGPT is a state-of-the-art language model that is capable of generating human-like text. It is built on the transformer architecture, which allows it to handle large amounts of data and generate highquality text.&lt;/p&gt;
-&lt;p&gt;However, in order to get the best results from ChatGPT, it is important to understand how to properly prompt the model.
-Prompting allows users to control the output of the model and generate text that is relevant, accurate, and of high-quality.&lt;/p&gt;
-&lt;p&gt;When working with ChatGPT, it is important to understand its capabilities and limitations.&lt;/p&gt;
 &lt;h3 id=&#34;prompt-formula&#34;&gt;Prompt Formula&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;A prompt formula is a specific format for the prompt, it is generally composed of 3 main elements:&lt;/code&gt;&lt;/p&gt;
 &lt;ul&gt;
