@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en-us" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Introduction A rules-based, cross-platform proxy application core program written in Go. Clash for Windows is a graphical Clash branch available on Windows. Download Package Download the latest release version from https://github.com/Fndroid/clash_for_windows_pkg/releases.
-Recommend the portable package, like: Clash.for.Windows-0.20.18-win.7z.
-Install or extract the package and it can be launched directly.
-If the installer is downloaded, then double-click it and finish the installation with the default settings. If the portable compress package is downloaded, just needs to extract it to the specified path.'>
-<title>Clash for Windows</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Enable USB debugging on the Android device Go the Settings on the Android device.
+Scroll down and tap on About Phone or (About Device).
+Scroll down to the bottom of the page and look for the Build Number or Build Version entry.
+Tap on it repeatedly (usually about seven times) until the message that says You are now a developer! or something similar.
+This will enable the Developer Options menu in the settings.'>
+<title>Use the ADB Shell to remove an Android package </title>
 
-<link rel='canonical' href='/p/clash-for-windows/'>
+<link rel='canonical' href='/p/use-the-adb-shell-to-remove-an-android-package/'>
 
-<link rel="stylesheet" href="/scss/style.min.5be32ca3f6e1a997c75795c4359147cc6d4fbd34948c0acd51e31d237033978a.css"><meta property='og:title' content='Clash for Windows'>
-<meta property='og:description' content='Introduction A rules-based, cross-platform proxy application core program written in Go. Clash for Windows is a graphical Clash branch available on Windows. Download Package Download the latest release version from https://github.com/Fndroid/clash_for_windows_pkg/releases.
-Recommend the portable package, like: Clash.for.Windows-0.20.18-win.7z.
-Install or extract the package and it can be launched directly.
-If the installer is downloaded, then double-click it and finish the installation with the default settings. If the portable compress package is downloaded, just needs to extract it to the specified path.'>
-<meta property='og:url' content='/p/clash-for-windows/'>
+<link rel="stylesheet" href="/scss/style.min.5be32ca3f6e1a997c75795c4359147cc6d4fbd34948c0acd51e31d237033978a.css"><meta property='og:title' content='Use the ADB Shell to remove an Android package '>
+<meta property='og:description' content='Enable USB debugging on the Android device Go the Settings on the Android device.
+Scroll down and tap on About Phone or (About Device).
+Scroll down to the bottom of the page and look for the Build Number or Build Version entry.
+Tap on it repeatedly (usually about seven times) until the message that says You are now a developer! or something similar.
+This will enable the Developer Options menu in the settings.'>
+<meta property='og:url' content='/p/use-the-adb-shell-to-remove-an-android-package/'>
 <meta property='og:site_name' content='Mozi CSH'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='Clash' /><meta property='article:published_time' content='2023-03-17T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-03-17T00:00:00&#43;00:00'/><meta property='og:image' content='/post/Clash4Windows/beginnerStart.png' />
-<meta name="twitter:title" content="Clash for Windows">
-<meta name="twitter:description" content="Introduction A rules-based, cross-platform proxy application core program written in Go. Clash for Windows is a graphical Clash branch available on Windows. Download Package Download the latest release version from https://github.com/Fndroid/clash_for_windows_pkg/releases.
-Recommend the portable package, like: Clash.for.Windows-0.20.18-win.7z.
-Install or extract the package and it can be launched directly.
-If the installer is downloaded, then double-click it and finish the installation with the default settings. If the portable compress package is downloaded, just needs to extract it to the specified path."><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='/post/Clash4Windows/beginnerStart.png' /><style>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='ADB Shell' /><meta property='article:tag' content='Android' /><meta property='article:published_time' content='2023-03-28T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-03-28T00:00:00&#43;00:00'/><meta property='og:image' content='/post/adbshell/beginnerStart.png' />
+<meta name="twitter:title" content="Use the ADB Shell to remove an Android package ">
+<meta name="twitter:description" content="Enable USB debugging on the Android device Go the Settings on the Android device.
+Scroll down and tap on About Phone or (About Device).
+Scroll down to the bottom of the page and look for the Build Number or Build Version entry.
+Tap on it repeatedly (usually about seven times) until the message that says You are now a developer! or something similar.
+This will enable the Developer Options menu in the settings."><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='/post/adbshell/beginnerStart.png' /><style>
     :root {
         --article-font-family: "Rubik", var(--base-font-family);
         --page-width: 100%;
@@ -265,10 +268,10 @@ If the installer is downloaded, then double-click it and finish the installation
         <div class="widget--toc">
             <nav id="TableOfContents">
   <ol>
-    <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#download-package">Download Package</a></li>
-    <li><a href="#download-the-subscription-and-import">Download the Subscription and Import</a></li>
-    <li><a href="#enable-proxy">Enable Proxy</a></li>
+    <li><a href="#enable-usb-debugging-on-the-android-device">Enable USB debugging on the Android device</a></li>
+    <li><a href="#download-and-run-the-adb-shell">Download and Run the ADB Shell</a></li>
+    <li><a href="#list-packages">List Packages</a></li>
+    <li><a href="#remove-packages">Remove Packages</a></li>
   </ol>
 </nav>
         </div>
@@ -283,9 +286,9 @@ If the installer is downloaded, then double-click it and finish the installation
     <article class="has-image main-article">
     <header class="article-header">
         <div class="article-image">
-            <a href="/p/clash-for-windows/">
+            <a href="/p/use-the-adb-shell-to-remove-an-android-package/">
                 
-                    <img src="/post/Clash4Windows/beginnerStart.png" loading="lazy" alt="Featured image of post Clash for Windows" />
+                    <img src="/post/adbshell/beginnerStart.png" loading="lazy" alt="Featured image of post Use the ADB Shell to remove an Android package " />
                 
             </a>
         </div>
@@ -304,7 +307,7 @@ If the installer is downloaded, then double-click it and finish the installation
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/clash-for-windows/">Clash for Windows</a>
+            <a href="/p/use-the-adb-shell-to-remove-an-android-package/">Use the ADB Shell to remove an Android package </a>
         </h2>
     
         
@@ -326,7 +329,7 @@ If the installer is downloaded, then double-click it and finish the installation
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">Mar 17, 2023</time>
+                <time class="article-time--published">Mar 28, 2023</time>
             </div>
         
 
@@ -341,7 +344,7 @@ If the installer is downloaded, then double-click it and finish the installation
 
 
                 <time class="article-time--reading">
-                    2 minute read
+                    3 minute read
                 </time>
             </div>
         
@@ -356,94 +359,120 @@ If the installer is downloaded, then double-click it and finish the installation
     <section class="article-content">
     
     
-    <h2 id="introduction">Introduction</h2>
-<ul>
-<li>A rules-based, cross-platform proxy application core program written in Go.</li>
-<li>Clash for Windows is a graphical Clash branch available on Windows.</li>
-</ul>
-<hr>
-<h2 id="download-package">Download Package</h2>
+    <h1 id="heading"></h1>
+<h2 id="enable-usb-debugging-on-the-android-device">Enable USB debugging on the Android device</h2>
 <ol>
 <li>
-<p>Download the latest release version from <a class="link" href="https://github.com/Fndroid/clash_for_windows_pkg/releases"  target="_blank" rel="noopener"
-    >https://github.com/Fndroid/clash_for_windows_pkg/releases</a>.</p>
+<p>Go the <code>Settings</code> on the Android device.</p>
+</li>
+<li>
+<p>Scroll down and tap on <code>About Phone</code> or (<code>About Device</code>).</p>
+</li>
+<li>
+<p>Scroll down to the bottom of the page and look for the <code>Build Number</code> or <code>Build Version</code> entry.</p>
+</li>
+<li>
+<p>Tap on it repeatedly (usually about seven times) until the message that says <code>You are now a developer!</code> or something similar.</p>
 <blockquote>
-<p>Recommend the portable package, like: <em><code>Clash.for.Windows-0.20.18-win.7z</code></em>.</p>
+<p>This will enable the <code>Developer Options</code> menu in the settings.</p>
 </blockquote>
 </li>
 <li>
-<p>Install or extract the package and it can be launched directly.</p>
-<ol>
-<li>If the installer is downloaded, then double-click it and finish the installation with the default settings.</li>
-<li>If the portable compress package is downloaded, just needs to extract it to the specified path.</li>
-</ol>
-</li>
-</ol>
+<p>Go back to the main <code>Settings</code> menu and scoll down to find the <code>Developer Options</code> menu.</p>
 <blockquote>
-<ul>
-<li>Due to the <code>Clash for Windows</code> does not have any valid digital signatures, the <code>SmartScreen</code> of the Windows may pop up a prompt, just needs to click on <code>More Info</code> and then select <code>Still Want to Run</code> to run.</li>
-<li>It is an open-source application, typically it is safe to run on the system.</li>
-</ul>
-</blockquote>
-<hr>
-<h2 id="download-the-subscription-and-import">Download the Subscription and Import</h2>
-<blockquote>
-<p>For the stable proxy, a paid subscription is an appropriate choice.<br>
-However, a beginner&rsquo;s guide can use the free nodes to explain the basic usage.</p>
-</blockquote>
-<ol>
-<li>
-<p>Go to a site that provides daily free nodes, for example: <a class="link" href="https://freenode.me/f/freenode"  target="_blank" rel="noopener"
-    >https://freenode.me/f/freenode</a>.</p>
-</li>
-<li>
-<p>Select the latest post and find the subscription for the <code>Clash</code> only, like:</p>
-</li>
-</ol>
-<blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="l">https://freenode.me/wp-content/uploads/2023/03/168.yaml</span><span class="w">
-</span></span></span></code></pre></div></blockquote>
-<ol start="3">
-<li>
-<p>Copy the file link of the <code>xxx.yaml</code>.</p>
-</li>
-<li>
-<p>Open the <code>Clash for Windows</code> client and select the <code>Profiles</code> option on the left sidebar.</p>
-</li>
-<li>
-<p>Paste the copied link above to the top textbox.</p>
-</li>
-<li>
-<p>Click the <code>Download</code> button and wait for it to turn green with <code>Success!</code>.</p>
-<blockquote>
-<p>A new <code>xxx.yaml</code> file will appear in the panel below.</p>
+<p>It may be listed as <code>System</code> -&gt; <code>Developer Options</code> on some devices.</p>
 </blockquote>
 </li>
 <li>
-<p>Select the newly added <code>xxx.yaml</code> file.</p>
+<p>Toggle the <code>USB Debugging</code> option to turn it on.</p>
+</li>
+<li>
+<p>There is a warning message about the potential risks of enabling USB debugging. Read it carefully and tap <code>OK</code> to confirm to enable USB debugging.</p>
 </li>
 </ol>
-<hr>
-<h2 id="enable-proxy">Enable Proxy</h2>
+<blockquote>
+<p>Now, you can connect your Android device to your computer using a USB cable and use adb to run commands on the device.</p>
+</blockquote>
+<h2 id="download-and-run-the-adb-shell">Download and Run the ADB Shell</h2>
 <ol>
 <li>
-<p>Select the <code>Proxies</code> option on the left siderbar.</p>
+<p>Go the <a class="link" href="https://developer.android.com/studio/releases/platform-tools"  target="_blank" rel="noopener"
+    >https://developer.android.com/studio/releases/platform-tools</a>.</p>
 </li>
 <li>
-<p>Click the <code>Rule</code> button on the top.</p>
+<p>Scroll down to the <code>Downloads</code> section and find the appropriate download link for the operating system.</p>
+<blockquote>
+<p>Example: <code>Download SDK Platform-Tools for Windows</code></p>
+</blockquote>
 </li>
 <li>
-<p>Select the <code>General</code> option on the left siderbar.</p>
+<p>Click the download link to download the zip file containing the Platform Tools.</p>
 </li>
 <li>
-<p>Trun on the <code>System Proxy</code> switch.</p>
+<p>Once the download is complete, extract the contents of the zip file to a directory.</p>
+</li>
+<li>
+<p>Navigate to the directory where extracted Platform Tools.</p>
+</li>
+<li>
+<p>You should see a file called <code>adb</code> (or <code>adb.exe</code> on Windows). This is the adb executable that you can use to run commands on your Android device.</p>
 </li>
 </ol>
-<blockquote>
-<p>Try to use 🤩 <a class="link" href="https://www.google.com/"  title="Google Search"
-     target="_blank" rel="noopener"
-    >Google</a> 🤩.</p>
+<h2 id="list-packages">List Packages</h2>
+<ol>
+<li>
+<p>Connect your Android device to your computer using a USB cable.</p>
+</li>
+<li>
+<p>Navigate to the directory where the adb executable is located.</p>
+</li>
+<li>
+<p>Open a command prompt or terminal window on your computer.</p>
+</li>
+<li>
+<p>Type the following command to open a shell on your device:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">adb shell
+</span></span></code></pre></div><p>You should see a new command prompt that looks something like this:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">shell@device_name:/ $
+</span></span></code></pre></div><blockquote>
+<p>The prompt indicates that you are now in the adb shell on your Android device. The text &ldquo;device_name&rdquo; will be replaced with your actual device name.</p>
 </blockquote>
+</li>
+<li>
+<p>Type the following command to list all installed packages:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pm list packages  
+</span></span></code></pre></div><blockquote>
+<p>This will show you a list of all the packages installed on your device, like:</p>
+</blockquote>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">package:com.android.wallpaper.livepicker
+</span></span><span class="line"><span class="cl">package:com.android.providers.downloads
+</span></span><span class="line"><span class="cl">package:com.android.providers.media
+</span></span></code></pre></div></li>
+</ol>
+<h2 id="remove-packages">Remove Packages</h2>
+<ol>
+<li>
+<p>Find the package that you want to remove from the list and note down its package name. The package name is the part of the package identifier that comes after &ldquo;package:&rdquo;.</p>
+<blockquote>
+<p>For example: <code>package:com.android.providers.media</code></p>
+</blockquote>
+</li>
+<li>
+<p>Type the following command to remove the package:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pm uninstall &lt;package-name&gt;  
+</span></span></code></pre></div><blockquote>
+<p><code>pm uninstall com.android.providers.media</code></p>
+</blockquote>
+<p><strong>Alternatively</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">pm uninstall -k --user 0 &lt;package-name&gt;  
+</span></span></code></pre></div><blockquote>
+<p><code>pm uninstall -k --user 0 com.android.providers.media</code></p>
+</blockquote>
+</li>
+<li>
+<p>Once you have executed the command, the package will be uninstalled from your device.</p>
+</li>
+</ol>
 
 </section>
 
@@ -452,7 +481,9 @@ However, a beginner&rsquo;s guide can use the free nodes to explain the basic us
     
     <section class="article-tags">
         
-            <a href="/tags/clash/">Clash</a>
+            <a href="/tags/adb-shell/">ADB Shell</a>
+        
+            <a href="/tags/android/">Android</a>
         
     </section>
 
@@ -486,25 +517,6 @@ However, a beginner&rsquo;s guide can use the free nodes to explain the basic us
             
                 
 <article class="has-image">
-    <a href="/p/use-the-adb-shell-to-remove-an-android-package/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="/post/adbshell/beginnerStart.png" loading="lazy" data-key="" data-hash="/post/adbshell/beginnerStart.png"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Use the ADB Shell to remove an Android package </h2>
-        </div>
-    </a>
-</article>
-
-            
-                
-<article class="has-image">
     <a href="/p/art-of-asking-chatgpt/">
         
         
@@ -517,6 +529,25 @@ However, a beginner&rsquo;s guide can use the free nodes to explain the basic us
 
         <div class="article-details">
             <h2 class="article-title">Art of Asking ChatGPT</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/clash-for-windows/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="/post/Clash4Windows/beginnerStart.png" loading="lazy" data-key="" data-hash="/post/Clash4Windows/beginnerStart.png"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Clash for Windows</h2>
         </div>
     </a>
 </article>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ADB Shell on Mozi CSH</title>
+        <link>/tags/adb-shell/</link>
+        <description>Recent content in ADB Shell on Mozi CSH</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Tue, 28 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/adb-shell/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Use the ADB Shell to remove an Android package </title>
+        <link>/p/use-the-adb-shell-to-remove-an-android-package/</link>
+        <pubDate>Tue, 28 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>/p/use-the-adb-shell-to-remove-an-android-package/</guid>
+        <description>&lt;img src="/post/adbshell/beginnerStart.png" alt="Featured image of post Use the ADB Shell to remove an Android package " /&gt;&lt;h1 id=&#34;heading&#34;&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;enable-usb-debugging-on-the-android-device&#34;&gt;Enable USB debugging on the Android device&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Go the &lt;code&gt;Settings&lt;/code&gt; on the Android device.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scroll down and tap on &lt;code&gt;About Phone&lt;/code&gt; or (&lt;code&gt;About Device&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scroll down to the bottom of the page and look for the &lt;code&gt;Build Number&lt;/code&gt; or &lt;code&gt;Build Version&lt;/code&gt; entry.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tap on it repeatedly (usually about seven times) until the message that says &lt;code&gt;You are now a developer!&lt;/code&gt; or something similar.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This will enable the &lt;code&gt;Developer Options&lt;/code&gt; menu in the settings.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Go back to the main &lt;code&gt;Settings&lt;/code&gt; menu and scoll down to find the &lt;code&gt;Developer Options&lt;/code&gt; menu.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;It may be listed as &lt;code&gt;System&lt;/code&gt; -&amp;gt; &lt;code&gt;Developer Options&lt;/code&gt; on some devices.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Toggle the &lt;code&gt;USB Debugging&lt;/code&gt; option to turn it on.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;There is a warning message about the potential risks of enabling USB debugging. Read it carefully and tap &lt;code&gt;OK&lt;/code&gt; to confirm to enable USB debugging.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Now, you can connect your Android device to your computer using a USB cable and use adb to run commands on the device.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;download-and-run-the-adb-shell&#34;&gt;Download and Run the ADB Shell&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Go the &lt;a class=&#34;link&#34; href=&#34;https://developer.android.com/studio/releases/platform-tools&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://developer.android.com/studio/releases/platform-tools&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Scroll down to the &lt;code&gt;Downloads&lt;/code&gt; section and find the appropriate download link for the operating system.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Example: &lt;code&gt;Download SDK Platform-Tools for Windows&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the download link to download the zip file containing the Platform Tools.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Once the download is complete, extract the contents of the zip file to a directory.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Navigate to the directory where extracted Platform Tools.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You should see a file called &lt;code&gt;adb&lt;/code&gt; (or &lt;code&gt;adb.exe&lt;/code&gt; on Windows). This is the adb executable that you can use to run commands on your Android device.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;list-packages&#34;&gt;List Packages&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Connect your Android device to your computer using a USB cable.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Navigate to the directory where the adb executable is located.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open a command prompt or terminal window on your computer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type the following command to open a shell on your device:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;adb shell
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;You should see a new command prompt that looks something like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;shell@device_name:/ $
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;The prompt indicates that you are now in the adb shell on your Android device. The text &amp;ldquo;device_name&amp;rdquo; will be replaced with your actual device name.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type the following command to list all installed packages:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pm list packages  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;This will show you a list of all the packages installed on your device, like:&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;package:com.android.wallpaper.livepicker
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;package:com.android.providers.downloads
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;package:com.android.providers.media
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;remove-packages&#34;&gt;Remove Packages&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Find the package that you want to remove from the list and note down its package name. The package name is the part of the package identifier that comes after &amp;ldquo;package:&amp;rdquo;.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;For example: &lt;code&gt;package:com.android.providers.media&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Type the following command to remove the package:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pm uninstall &amp;lt;package-name&amp;gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;pm uninstall com.android.providers.media&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Alternatively&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;pm uninstall -k --user 0 &amp;lt;package-name&amp;gt;  
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;pm uninstall -k --user 0 com.android.providers.media&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Once you have executed the command, the package will be uninstalled from your device.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
